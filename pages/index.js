@@ -44,8 +44,11 @@ function Home() {
         </div>
       </Navigation>
       <Section2>
+        
         <div className="sanook-sudjad">
+        <button class="share-btn">แชร์</button>
         <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg" alt="สนุกสุดจัด 2023"/>
+        <div class="btn-2"><span></span><span></span><span></span></div>
         </div>
         <div className="text">
           <h2>หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่</h2>
@@ -510,22 +513,66 @@ const Section2 = styled.div`
         animation: spin 1s infinite linear;
       }
     }
-
     @keyframes spin {
       from { transform: rotate(0deg); }
       to { transform: rotate(360deg); }
     }
   }
-  
   .text{
   display: flex;
   flex-flow: column;
   justify-content: center;
   text-align: center;
   }
+  .share-btn{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    z-index: 11;
+    border: 0;
+    outline: 0;
+    background-color: #E7E7E7;
+    background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/blink-red.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90% auto;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .btn-2{
+    display: block;
+    background-color: #000;
+    text-transform: uppercase;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50%;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    z-index: 11;
+    user-select: none;
+    padding-top: 4px;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+  }
+  .share-btn,
+  .btn-2{
+    @media (min-width: 426px) {
+    display: none;
+     
+  }
+  }
   @media (max-width: 426px) {
     flex-flow: column;
-     }
+     
+  }
   `;
 const Vote = styled.div`
   position: relative;
