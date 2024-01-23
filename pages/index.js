@@ -8,7 +8,12 @@ function Home() {
       <Navigation>
         <div className="left-nav">
           <a href="https://www.sanook.com/" rel="noreferrer" target="_blank">
+          <img className="arrow"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rb.svg"
+                alt="sanook.com"
+              />
             <div className="logo">
+              
               <span>กลับไปเว็บไซต์</span>
               <img
                 src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-sanook-d.svg"
@@ -19,6 +24,10 @@ function Home() {
         </div>
         <div>
           <nav className="nav-text">
+          <img
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg"
+                alt="sanook.com"
+              />
             <a className="active">
               <span>ร่วมโหวตสนุกสุดจัด</span>
             </a>
@@ -410,7 +419,16 @@ const Navigation = styled.div`
     display: block;
     height: 100%;
     left: 0;
-    .logo::before {
+    .arrow{
+      transform: rotate(-180deg) translateY(50%);
+      top: 50%;
+      left: 0;
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+      position: sticky;
+    }
+    /* .logo::before {
       content: "";
       position: absolute;
       top: 50%;
@@ -422,7 +440,7 @@ const Navigation = styled.div`
       background-position: center;
       background-size: contain;
       transform: rotate(-180deg) translateY(50%);
-    }
+    } */
     .logo {
       display: inline-block;
       position: relative;
@@ -438,8 +456,12 @@ const Navigation = styled.div`
     display: flex;
     align-items: center;
     right: 0;
+    img{
+      margin-right: 5px;
+      width: 15px;
+    }
     a {
-      margin-right: 20px;
+      margin-right: 15px;
       text-decoration: none;
       color: #000;
       font-weight: bold;
@@ -450,10 +472,11 @@ const Navigation = styled.div`
     }
     .active {
       color: #eb2114;
-      background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg);
+      
+      /* background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg);
       background-repeat: no-repeat;
       background-position: 3px center;
-      background-size: auto 15px;
+      background-size: auto 15px; */
     }
   }
   @media (max-width: 426px) {
@@ -474,28 +497,26 @@ const Section2 = styled.div`
       width: 100%;
     position: relative;
     z-index: 1;
-    img::after{
-      width: 70px;
-    height: 70px;
-    top: -6px;
-    right: 10px;
-    content: "";
-    position: absolute;
-    top: -3px;
-    right: 13px;
-    background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-s.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 45px;
-    height: 45px;
-    animation: spin 1s infinite linear;
+    &::after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        right: 13px;
+        width: 45px;
+        height: 45px;
+        background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-s.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation: spin 1s infinite linear;
+      }
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
   }
-  @keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-  }
-  }
-  }
+  
   .text{
   display: flex;
   flex-flow: column;
