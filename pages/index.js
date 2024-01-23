@@ -561,6 +561,13 @@ const Section2 = styled.div`
     padding-top: 4px;
     border: 2px solid #fff;
     box-sizing: border-box;
+    span{
+      width: 60%;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: 8px auto;
+    }
   }
   .share-btn,
   .btn-2{
