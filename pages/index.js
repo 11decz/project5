@@ -40,7 +40,7 @@ function Home() {
         </div>
         <div className="text">
           <h2>หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่</h2>
-          <strong>1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com</strong>
+          <span>1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com</span>
           </div>
       </Section2>
       <Vote>
@@ -386,7 +386,7 @@ function Home() {
 }
 
 const TopPage = styled.div`
-  font-size: 20px;
+  font-size: 14px;
  max-width: 1300px;
   margin: auto;
   background: rgb(255, 255, 255);
@@ -400,6 +400,8 @@ const Navigation = styled.div`
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  flex: 1;
+  max-width: 100%; 
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
@@ -441,7 +443,7 @@ const Navigation = styled.div`
       text-decoration: none;
       color: #000;
       font-weight: bold;
-      font-size: 18px;
+      
       &:hover {
         color: #eb2114;
       }
@@ -454,6 +456,9 @@ const Navigation = styled.div`
       background-size: auto 15px;
     }
   }
+  @media (max-width: 426px) {
+     display: none;
+     }
 `;
 const Section2 = styled.div`
   display: flex;
@@ -497,12 +502,15 @@ const Section2 = styled.div`
   justify-content: center;
   text-align: center;
   }
+  @media (max-width: 426px) {
+    flex-flow: column;
+     }
   `;
 const Vote = styled.div`
   position: relative;
-  display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  font-size: 100%;
+  display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
   box-sizing: border-box;
   .section {
     position: relative;
@@ -510,9 +518,10 @@ const Vote = styled.div`
     column-gap: 10px;
     box-sizing: border-box;
     transition: transform 0.3s ease;
-    cursor: pointer;
+   
     &:hover {
       animation: bounce2 2s ease infinite;
+     
       @keyframes bounce2 {
         100% {
           transform: translateY(0);
@@ -522,19 +531,24 @@ const Vote = styled.div`
         }
       }
     }
-    /* @media (max-width: 426px) {
-      grid-template-columns: repeat(2, 1fr); */
+    
     }
-    .pic {
-      max-width: 100%;
+    
+    .pic {   
       position: relative;
-      
+      img{
+         width: 100%;
+          max-width: 260px;
+      }
+     
+          
+          
     }
 
     .text {
       text-decoration: none;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 20px;
       position: absolute;
       width: 100%;
       overflow: hidden;
@@ -549,20 +563,20 @@ const Vote = styled.div`
         color: white;
         border: none;
         background: #c0c0c0;
-        padding: 30px 10px;
+        padding: 10px 10px;
         width: 100%;
         font-size: 30px;
       }
       .vote-btn-2 {
         position: absolute;
-        bottom: 7px;
+        bottom: 6px;
         width: 100%;
         overflow: hidden;
         color: white;
         border: none;
         line-height: 30px;
         background: #c0c0c0;
-        padding: 30px 10px;
+        padding: 10px 10px;
         width: 100%;
         border-radius: 0 0 75px 75px;
         font-size: 30px;
@@ -576,7 +590,7 @@ const Vote = styled.div`
         color: white;
         border: none;
         background: #c0c0c0;
-        padding: 30px 10px;
+        padding: 10px 10px;
         width: 100%;
         border-radius: 0 0 75px 0;
         font-size: 30px;
@@ -593,15 +607,16 @@ const Vote = styled.div`
     .imaginecouples {
       .text {
         color: white;
-        bottom: 104px;
+        bottom: 60px;
         left: 20px;
+        padding: 0 3px
       }
     }
     .topactor {
       .text {
         top: 7px;
         left: 60px;
-        padding: 0 25px;
+        padding: 0 3px;
         color: black;
       }
     }
@@ -616,16 +631,15 @@ const Vote = styled.div`
     .topactress {
       .text {
         color: white;
-
-        bottom: 110px;
+        bottom: 75px;
         padding: 0 30px;
       }
     }
     .femalerisingstar {
       .text {
         color: white;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .bestseries {
@@ -633,14 +647,14 @@ const Vote = styled.div`
         color: white;
         top: 20px;
         left: 60px;
-        padding: 0 100px;
+        padding: 0 3px
       }
     }
     .bestdrama {
       .text {
         color: black;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .chineseseries {
@@ -653,8 +667,8 @@ const Vote = styled.div`
     .bestmovies {
       .text {
         color: white;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .hitsong {
@@ -662,14 +676,14 @@ const Vote = styled.div`
         color: white;
         top: 10px;
         left: 60px;
-        padding: 0 100px;
+        padding: 0 3px
       }
     }
     .bestsong {
       .text {
         color: white;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .topartist {
@@ -682,8 +696,8 @@ const Vote = styled.div`
     .tpopartist {
       .text {
         color: white;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .empoweringwoman {
@@ -691,14 +705,14 @@ const Vote = styled.div`
         color: white;
         top: 10px;
         left: 60px;
-        padding: 0 100px;
+        padding: 0 3px
       }
     }
     .popularvote {
       .text {
         color: white;
-        bottom: 110px;
-        left: 20px;
+        bottom: 75px;
+        padding: 0 30px;
       }
     }
     .thaifolksong {
