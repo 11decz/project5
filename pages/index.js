@@ -44,7 +44,6 @@ function Home() {
         </div>
       </Navigation>
       <Section2>
-        
         <div className="sanook-sudjad">
         <button class="share-btn">แชร์</button>
         <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg" alt="สนุกสุดจัด 2023"/>
@@ -58,7 +57,7 @@ function Home() {
       <Vote>
         <div className="section">
           <div className="imaginecouples">
-            <a title="คู่จิ้นที่สุดแห่งปี" href="/topoftheyear/imaginecouples/">
+            <a title="คู่จิ้นที่สุดแห่งปี" href="/imaginecouples/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png"
@@ -76,7 +75,7 @@ function Home() {
         </div>
         <div className="section">
           <div class="topactor">
-            <a title="นักแสดงชาย,ยอดนิยมแห่งปี" href="/topoftheyear/topactor/">
+            <a title="นักแสดงชาย,ยอดนิยมแห่งปี" href="/topactor/">
               <div class="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-02.png"
@@ -102,7 +101,7 @@ function Home() {
           <div class="topactress">
             <a
               title="นักแสดงหญิง,ยอดนิยมแห่งปี"
-              href="/topoftheyear/topactress/"
+              href="/topactress/"
             >
               <div className="pic">
                 <img
@@ -125,7 +124,7 @@ function Home() {
           <div class="malerisingstar">
             <a
               title="คนดังดาวรุ่งชาย,แห่งปี"
-              href="/topoftheyear/malerisingstar/"
+              href="/malerisingstar/"
             >
               <div className="pic">
                 <img
@@ -148,7 +147,7 @@ function Home() {
           <div class="femalerisingstar">
             <a
               title="คนดังดาวรุ่งหญิง,แห่งปี"
-              href="/topoftheyear/femalerisingstar/"
+              href="/femalerisingstar/"
             >
               <div className="pic">
                 <img
@@ -169,7 +168,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="bestseries">
-            <a title="ซีรีส์ที่สุดแห่งปี" href="/topoftheyear/bestseries/">
+            <a title="ซีรีส์ที่สุดแห่งปี" href="/bestseries/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-06.png"
@@ -187,7 +186,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="bestdrama">
-            <a title="ละครไทยที่สุดแห่งปี" href="/topoftheyear/bestdrama/">
+            <a title="ละครไทยที่สุดแห่งปี" href="/bestdrama/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-07.png"
@@ -207,7 +206,7 @@ function Home() {
           <div class="chineseseries">
             <a
               title="ซีรีส์จีนสุดปังแห่งปี"
-              href="/topoftheyear/chineseseries/"
+              href="/chineseseries/"
             >
               <div className="pic">
                 <img
@@ -228,7 +227,7 @@ function Home() {
           <div class="bestmovies">
             <a
               title="ภาพยนตร์ไทย,ที่สุดแห่งปี"
-              href="/topoftheyear/bestmovies/"
+              href="/bestmovies/"
             >
               <div className="pic">
                 <img
@@ -249,7 +248,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="hitsong">
-            <a title="เพลงไทยมาแรง,แห่งปี" href="/topoftheyear/hitsong/">
+            <a title="เพลงไทยมาแรง,แห่งปี" href="/hitsong/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-10.png"
@@ -269,7 +268,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="bestsong">
-            <a title="เพลงไทยยอดเยี่ยม,แห่งปี" href="/topoftheyear/bestsong/">
+            <a title="เพลงไทยยอดเยี่ยม,แห่งปี" href="/bestsong/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-11.png"
@@ -290,7 +289,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="topartist">
-            <a title="ศิลปินดาวรุ่งแห่งปี" href="/topoftheyear/topartist/">
+            <a title="ศิลปินดาวรุ่งแห่งปี" href="/topartist/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-12.png"
@@ -308,7 +307,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="tpopartist">
-            <a title="ศิลปินเพลง T-POP,แห่งปี" href="/topoftheyear/tpopartist/">
+            <a title="ศิลปินเพลง T-POP,แห่งปี" href="/tpopartist/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-13.png"
@@ -331,7 +330,7 @@ function Home() {
           <div class="empoweringwoman">
             <a
               title="นางงาม,แรงบันดาลใจแห่งปี"
-              href="/topoftheyear/empoweringwoman/"
+              href="/empoweringwoman/"
             >
               <div className="pic">
                 <img
@@ -354,7 +353,7 @@ function Home() {
           <div class="popularvote">
             <a
               title="สนุกสุดจัด,Popular Vote"
-              href="/topoftheyear/popularvote/"
+              href="/popularvote/"
             >
               <div className="pic">
                 <img
@@ -376,7 +375,7 @@ function Home() {
         </div>
         <div class="section">
           <div class="thaifolksong">
-            <a title="นักร้องลูกทุ่งยอดนิยม" href="/topoftheyear/thaifolksong/">
+            <a title="นักร้องลูกทุ่งยอดนิยม" href="/thaifolksong/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-16.png"
@@ -494,7 +493,6 @@ const Section2 = styled.div`
   .sanook-sudjad{
   display: block;
     max-width: 250px;
-    margin: 0 0 20px;
     box-sizing: border-box;
     img{
       width: 100%;
@@ -606,7 +604,6 @@ const Vote = styled.div`
         }
       }
     }
-    
     }
     
     .pic {   
@@ -614,10 +611,7 @@ const Vote = styled.div`
       img{
          width: 100%;
           max-width: 260px;
-      }
-     
-          
-          
+      }  
     }
 
     .text {
