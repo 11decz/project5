@@ -6,7 +6,7 @@ function imaginecouples() {
   return (
     <Imaginecouples>
       
-      <div class="btn-back"><span>
+      <div className="btn-back"><span>
         <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg" alt="back"/>
         <small>Back</small>
         </span>
@@ -196,8 +196,8 @@ const Imaginecouples = styled.div`
       box-sizing: border-box;
     display: inline-block;
     color: #fff;
-    height: 50px;
-    width: 50px;
+    height: 61px;
+    width: 61px;
     z-index: 20;
     position: relative;
       }
