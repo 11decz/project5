@@ -5,6 +5,13 @@ import React from "react";
 function imaginecouples() {
   return (
     <Imaginecouples>
+      
+      <div class="btn-back"><span>
+        <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg" alt="back"/>
+        <small>Back</small>
+        </span>
+        </div>
+      
       <div className="sanook-sudjad">
         <img
           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg"
@@ -150,12 +157,62 @@ const Imaginecouples = styled.div`
    
     background-position: -500px -350px,calc(100% + 480px) calc(100% + 450px);
     background-repeat: no-repeat;
-    padding: 69px 20px 320px;
+    padding: 20px 20px 320px;
     position: relative;
     overflow: hidden;
     @media (max-width: 426px) {
       background-position: center -181px,-70px calc(100% - 40px);
     background-size: 535px auto,70vw auto;
+      }
+      .btn-back{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    box-sizing: border-box;;
+    z-index: 2;
+    &::before{
+      box-sizing: border-box;
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    z-index: -1;
+    }
+    span{
+      font-weight: 500;
+    font-size: 18px;
+    height: 54px;
+    width: 130px;
+    line-height: 59px;
+    padding: 8px 15px;
+    @media (max-width: 426px) {
+      box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    z-index: 20;
+    position: relative;
+      }
+    }
+    img{
+      margin-top: -2px;
+    margin-right: 5px;
+    width: 28px
+    }
+    small{
+      display: inline-block;
+      @media (max-width: 426px) {
+    display: none;
+      }
+    }
       }
     .sanook-sudjad {
   max-width: 250px;
@@ -171,6 +228,7 @@ const Imaginecouples = styled.div`
     width: 100%;
     position: relative;
     z-index: 1;
+    padding: 55px 0px 0px;
   }
 
   .text {
