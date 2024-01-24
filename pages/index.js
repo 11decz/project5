@@ -46,9 +46,9 @@ function Home() {
       </Navigation>
       <Section2>
         <div className="sanook-sudjad">
-        <button class="share-btn">แชร์</button>
+        <button className="share-btn">แชร์</button>
         <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg" alt="สนุกสุดจัด 2023"/>
-        <div class="btn-2"><span></span><span></span><span></span></div>
+        <div className="btn-2"><span></span><span></span><span></span></div>
         </div>
         <div className="text">
           <h2>หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่</h2>
@@ -65,7 +65,7 @@ function Home() {
                   alt="คู่จิ้นที่สุดแห่งปี"
                 />
               </div>
-              <p class="text">
+              <p className="text">
                 <span>คู่จิ้นที่สุดแห่งปี</span>
               </p>
               <div className="btn">
@@ -75,15 +75,15 @@ function Home() {
           </div>
         </div>
         <div className="section">
-          <div class="topactor">
+          <div className="topactor">
             <a title="นักแสดงชาย,ยอดนิยมแห่งปี" href="/topactor/">
-              <div class="pic">
+              <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-02.png"
                   alt="นักแสดงชาย,ยอดนิยมแห่งปี"
                 />
               </div>
-              <p class="text">
+              <p className="text">
                 <span>
                   นักแสดงชาย
                   <br />
@@ -98,8 +98,8 @@ function Home() {
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="topactress">
+        <div className="section">
+          <div className="topactress">
             <a
               title="นักแสดงหญิง,ยอดนิยมแห่งปี"
               href="/topactress/"
@@ -116,13 +116,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="malerisingstar">
+        <div className="section">
+          <div className="malerisingstar">
             <a
               title="คนดังดาวรุ่งชาย,แห่งปี"
               href="/malerisingstar/"
@@ -139,13 +139,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn-3">โหวต</button>
+                <button className="vote-btn-3">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="femalerisingstar">
+        <div className="section">
+          <div className="femalerisingstar">
             <a
               title="คนดังดาวรุ่งหญิง,แห่งปี"
               href="/femalerisingstar/"
@@ -162,13 +162,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="bestseries">
+        <div className="section">
+          <div className="bestseries">
             <a title="ซีรีส์ที่สุดแห่งปี" href="/bestseries/">
               <div className="pic">
                 <img
@@ -180,13 +180,13 @@ function Home() {
                 <span>ซีรีส์ที่สุดแห่งปี</span>
               </div>
               <div className="btn">
-                <button class="vote-btn-2">โหวต</button>
+                <button className="vote-btn-2">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="bestdrama">
+        <div className="section">
+          <div className="bestdrama">
             <a title="ละครไทยที่สุดแห่งปี" href="/bestdrama/">
               <div className="pic">
                 <img
@@ -198,13 +198,13 @@ function Home() {
                 <span>ละครไทยที่สุดแห่งปี</span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="chineseseries">
+        <div className="section">
+          <div className="chineseseries">
             <a
               title="ซีรีส์จีนสุดปังแห่งปี"
               href="/chineseseries/"
@@ -219,13 +219,13 @@ function Home() {
                 <span>ซีรีส์จีนสุดปังแห่งปี</span>
               </div>
               <div className="btn">
-                <button class="vote-btn-3">โหวต</button>
+                <button className="vote-btn-3">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="bestmovies">
+        <div className="section">
+          <div className="bestmovies">
             <a
               title="ภาพยนตร์ไทย,ที่สุดแห่งปี"
               href="/bestmovies/"
@@ -242,13 +242,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="hitsong">
+        <div className="section">
+          <div className="hitsong">
             <a title="เพลงไทยมาแรง,แห่งปี" href="/hitsong/">
               <div className="pic">
                 <img
@@ -262,13 +262,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn-2">โหวต</button>
+                <button className="vote-btn-2">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="bestsong">
+        <div className="section">
+          <div className="bestsong">
             <a title="เพลงไทยยอดเยี่ยม,แห่งปี" href="/bestsong/">
               <div className="pic">
                 <img
@@ -283,13 +283,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="topartist">
+        <div className="section">
+          <div className="topartist">
             <a title="ศิลปินดาวรุ่งแห่งปี" href="/topartist/">
               <div className="pic">
                 <img
@@ -301,13 +301,13 @@ function Home() {
                 <span>ศิลปินดาวรุ่งแห่งปี</span>
               </div>
               <div className="btn">
-                <button class="vote-btn-3">โหวต</button>
+                <button className="vote-btn-3">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="tpopartist">
+        <div className="section">
+          <div className="tpopartist">
             <a title="ศิลปินเพลง T-POP,แห่งปี" href="/tpopartist/">
               <div className="pic">
                 <img
@@ -322,13 +322,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="empoweringwoman">
+        <div className="section">
+          <div className="empoweringwoman">
             <a
               title="นางงาม,แรงบันดาลใจแห่งปี"
               href="/empoweringwoman/"
@@ -345,13 +345,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn-2">โหวต</button>
+                <button className="vote-btn-2">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="popularvote">
+        <div className="section">
+          <div className="popularvote">
             <a
               title="สนุกสุดจัด,Popular Vote"
               href="/popularvote/"
@@ -369,13 +369,13 @@ function Home() {
                 </span>
               </div>
               <div className="btn">
-                <button class="vote-btn">โหวต</button>
+                <button className="vote-btn">โหวต</button>
               </div>
             </a>
           </div>
         </div>
-        <div class="section">
-          <div class="thaifolksong">
+        <div className="section">
+          <div className="thaifolksong">
             <a title="นักร้องลูกทุ่งยอดนิยม" href="/thaifolksong/">
               <div className="pic">
                 <img
@@ -387,7 +387,7 @@ function Home() {
                 <span>นักร้องลูกทุ่งยอดนิยม</span>
               </div>
               <div className="btn">
-                <button class="vote-btn-3">โหวต</button>
+                <button className="vote-btn-3">โหวต</button>
               </div>
             </a>
           </div>
@@ -682,7 +682,7 @@ const Vote = styled.div`
     .imaginecouples {
       .text {
         color: white;
-        bottom: 60px;
+        bottom: 76px;
         left: 20px;
         padding: 0 3px
       }

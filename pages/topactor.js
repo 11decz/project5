@@ -1,13 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
+import React from 'react'
 import styled from "@emotion/styled";
-import React from "react";
-
-
-function imaginecouples() {
+function topactor() {
   return (
-    <Imaginecouples>
-      
-      <div className="btn-back" ><span>
+    <Topactor>
+         <div className="btn-back" ><span>
         <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg" alt="back"/>
         <small>Back</small>
         </span>
@@ -21,7 +17,7 @@ function imaginecouples() {
         <div className="text">
           <h2>
             หมดเขตโหวต <br />
-            คู่จิ้นที่สุดแห่งปี{" "}
+            นักแสดงชายยอดนิยมแห่งปี
           </h2>
         </div>
       </div>
@@ -30,14 +26,14 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_01.png"
-                alt="ฟรีน-เบ็คกี้"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_01.png"
+                alt="โป๊ป ธนวรรธน์"
               />
             </div>
-            <h2>ฟรีน-เบ็คกี้</h2>
+            <h2>โป๊ป ธนวรรธน์</h2>
           </div>
           <div className="section-2">
-            <h2>ฟรีน-เบ็คกี้</h2>
+            <h2>โป๊ป ธนวรรธน์</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -50,15 +46,15 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_02.png"
-                alt="เจมีไนน์-โฟร์ท"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_02.png"
+                alt="อาโป ณัฐวิญญ์"
               />
             </div>
-            <h2>เจมีไนน์-โฟร์ท</h2>
+            <h2>อาโป ณัฐวิญญ์</h2>
           </div>
 
           <div className="section-2">
-            <h2>เจมีไนน์-โฟร์ท</h2>
+            <h2>อาโป ณัฐวิญญ์</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -71,14 +67,14 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_03.png"
-                alt="อิงฟ้า-ชาล็อต"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_03.png"
+                alt="เจมส์ จิรายุ"
               />
             </div>
-            <h2>อิงฟ้า-ชาล็อต</h2>
+            <h2>เจมส์ จิรายุ</h2>
           </div>
           <div className="section-2">
-            <h2>อิงฟ้า-ชาล็อต</h2>
+            <h2>เจมส์ จิรายุ</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -91,14 +87,14 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_04.png"
-                alt="เน็ต-เจมส์"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_04.png"
+                alt="เข้ม หัสวีร์"
               />
             </div>
-            <h2>เน็ต-เจมส์</h2>
+            <h2>เข้ม หัสวีร์</h2>
           </div>
           <div className="section-2">
-            <h2>เน็ต-เจมส์</h2>
+            <h2>เข้ม หัสวีร์</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -111,14 +107,14 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_05.png"
-                alt="ซี-นุนิว"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_05.png"
+                alt="ชาย ชาตโยดม"
               />
             </div>
-            <h2>ซี-นุนิว</h2>
+            <h2>ชาย ชาตโยดม</h2>
           </div>
           <div className="section-2">
-            <h2>ซี-นุนิว</h2>
+            <h2>ชาย ชาตโยดม</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -131,14 +127,14 @@ function imaginecouples() {
           <div className="section-1">
             <div className="block">
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_06.png"
-                alt="ฟอส-บุ๊ค"
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/02/cat-02-choice_06.png"
+                alt="เจษ เจษฎ์พิพัฒ"
               />
             </div>
-            <h2>ฟอส-บุ๊ค</h2>
+            <h2>เจษ เจษฎ์พิพัฒ</h2>
           </div>
           <div className="section-2">
-            <h2>ฟอส-บุ๊ค</h2>
+            <h2>เจษ เจษฎ์พิพัฒ</h2>
             <div className="btn">
               <button>
                 <span>โหวต</span>
@@ -147,11 +143,11 @@ function imaginecouples() {
           </div>
         </div>
       </div>
-    </Imaginecouples>
+    </Topactor>
   );
 }
-const Imaginecouples = styled.div`
-  margin: auto;
+const Topactor = styled.div`
+ margin: auto;
   max-width: 1300px;
   background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg), url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
   background-size: 750px auto,760px auto;
@@ -235,6 +231,7 @@ const Imaginecouples = styled.div`
   .text {
     display: flex;
     flex-flow: column;
+    
     @media (max-width: 426px) {
    color: #fff;
   }
@@ -251,7 +248,7 @@ const Imaginecouples = styled.div`
     flex-flow: column;
     padding: 0 10px;
     h2 {
-      padding: 7px 10px;
+        padding: 7px 10px;
       @media (min-width: 427px) {
         display: none;
       }
@@ -396,4 +393,5 @@ const Imaginecouples = styled.div`
       }
   }
 `;
-export default imaginecouples;
+
+export default topactor;
