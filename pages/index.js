@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
@@ -491,9 +492,14 @@ const Section2 = styled.div`
  justify-content: space-between;
  padding: 20px;
   .sanook-sudjad{
-  display: block;
     max-width: 250px;
-    box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  margin: 0 auto; 
     img{
       width: 100%;
     position: relative;
