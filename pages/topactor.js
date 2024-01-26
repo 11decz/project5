@@ -2,6 +2,12 @@ import React from "react";
 import styled from "@emotion/styled";
 import Link from "next/link";
 function topactor() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <Topactor>
       <div className="btn-back">
@@ -151,6 +157,10 @@ function topactor() {
           </div>
         </div>
       </div>
+      
+     
+      <div className="btn-go-to-top" onClick={scrollToTop}>
+      </div>
     </Topactor>
   );
 }
@@ -166,10 +176,33 @@ const Topactor = styled.div`
   padding: 20px 20px 320px;
   position: relative;
   overflow: hidden;
+ 
   @media (max-width: 426px) {
     background-position: center -181px, -70px calc(100% - 40px);
     background-size: 535px auto, 70vw auto;
   }
+  .btn-go-to-top {
+  position: relative;
+  width: 77px;
+  height: 77px;
+  margin: 0 auto;
+
+&::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-t.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-sizing: border-box;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(29, 0, 237);
+  z-index: 1;
+ }
+}
+
   .btn-back {
     color: #fff;
     display: flex;
