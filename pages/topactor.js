@@ -1,14 +1,22 @@
-import React from 'react'
+import React from "react";
 import styled from "@emotion/styled";
+import Link from "next/link";
 function topactor() {
   return (
     <Topactor>
-         <div className="btn-back" ><span>
-        <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg" alt="back"/>
-        <small>Back</small>
-        </span>
-        </div>
-      
+      <div className="btn-back">
+        <Link href="/">
+        
+            <span>
+              <img
+                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg"
+                alt="back"
+              />
+              <small>Back</small>
+            </span>
+        </Link>
+      </div>
+
       <div className="sanook-sudjad">
         <img
           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg"
@@ -147,96 +155,98 @@ function topactor() {
   );
 }
 const Topactor = styled.div`
- margin: auto;
+  margin: auto;
   max-width: 1300px;
-  background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg), url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
-  background-size: 750px auto,760px auto;
-   
-    background-position: -500px -350px,calc(100% + 480px) calc(100% + 450px);
-    background-repeat: no-repeat;
-    padding: 20px 20px 320px;
-    position: relative;
-    overflow: hidden;
-    @media (max-width: 426px) {
-      background-position: center -181px,-70px calc(100% - 40px);
-    background-size: 535px auto,70vw auto;
-      }
-      .btn-back{
+  background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg),
+    url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
+  background-size: 750px auto, 760px auto;
+
+  background-position: -500px -350px, calc(100% + 480px) calc(100% + 450px);
+  background-repeat: no-repeat;
+  padding: 20px 20px 320px;
+  position: relative;
+  overflow: hidden;
+  @media (max-width: 426px) {
+    background-position: center -181px, -70px calc(100% - 40px);
+    background-size: 535px auto, 70vw auto;
+  }
+  .btn-back {
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: absolute;
-    box-sizing: border-box;;
+    box-sizing: border-box;
     z-index: 2;
-    &::before{
+    &::before {
       box-sizing: border-box;
-    content: '';
-    position: absolute;
-    height: 100%;
-    background-color: #000;
-    left: 0;
-    right: 0;
-    border: 2px solid #fff;
-    border-radius: 40px;
-    z-index: -1;
+      content: "";
+      position: absolute;
+      height: 100%;
+      background-color: #000;
+      left: 0;
+      right: 0;
+      border: 2px solid #fff;
+      border-radius: 40px;
+      z-index: -1;
     }
-    span{
+    span {
       font-weight: 500;
-    font-size: 18px;
-    height: 54px;
-    width: 130px;
-    line-height: 59px;
-    padding: 8px 15px;
-    @media (max-width: 426px) {
-      box-sizing: border-box;
-    display: inline-block;
-    color: #fff;
-    height: 61px;
-    width: 61px;
-    z-index: 20;
-    position: relative;
+      font-size: 18px;
+      height: 54px;
+      width: 130px;
+      line-height: 59px;
+      padding: 8px 15px;
+      @media (max-width: 426px) {
+        box-sizing: border-box;
+        display: inline-block;
+        color: #fff;
+        height: 61px;
+        width: 61px;
+        z-index: 20;
+        position: relative;
       }
     }
-    img{
+    img {
       margin-top: -2px;
-    margin-right: 5px;
-    width: 28px
+      margin-right: 5px;
+      width: 28px;
     }
-    small{
+    small {
+      color: #fff;
       display: inline-block;
       @media (max-width: 426px) {
-    display: none;
+        display: none;
       }
     }
-      }
-    .sanook-sudjad {
-  max-width: 250px;
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center; 
-  text-align: center;
-  margin: 0 auto; 
-  
-  img {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-    padding: 55px 0px 0px;
   }
-
-  .text {
+  .sanook-sudjad {
+    max-width: 250px;
+    box-sizing: border-box;
     display: flex;
     flex-flow: column;
-    
-    @media (max-width: 426px) {
-   color: #fff;
-  }
-}
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+    img {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      padding: 55px 0px 0px;
     }
+
+    .text {
+      display: flex;
+      flex-flow: column;
+
+      @media (max-width: 426px) {
+        color: #fff;
+      }
+    }
+  }
   .section {
     box-sizing: border-box;
     margin-bottom: 15px;
@@ -248,7 +258,7 @@ const Topactor = styled.div`
     flex-flow: column;
     padding: 0 10px;
     h2 {
-        padding: 7px 10px;
+      padding: 7px 10px;
       @media (min-width: 427px) {
         display: none;
       }
@@ -261,7 +271,7 @@ const Topactor = styled.div`
       align-items: center;
       position: relative;
       display: flex;
-      
+
       /* @media (max-width: 426px) {
         .frame-1,
         .frame-2,
@@ -335,16 +345,15 @@ const Topactor = styled.div`
     .section-2 {
       flex: 0 0 calc(100% - 270px);
       max-width: calc(100% - 270px);
-    
+
       justify-content: space-between;
       display: flex;
       justify-content: center;
       align-items: center;
       @media (max-width: 426px) {
-          
-          flex: 0 0 50%;
-    max-width: 35%;
-        }
+        flex: 0 0 50%;
+        max-width: 35%;
+      }
       h2 {
         display: block;
         word-break: break-word;
@@ -356,7 +365,6 @@ const Topactor = styled.div`
         white-space: pre-line;
         @media (max-width: 426px) {
           display: none;
-       
         }
       }
 
@@ -364,8 +372,7 @@ const Topactor = styled.div`
         opacity: 0.6;
         display: flex;
         align-items: center;
-        
-       
+
         position: relative;
         margin-left: auto;
         min-width: 90px;
@@ -389,8 +396,8 @@ const Topactor = styled.div`
       }
     }
     @media (max-width: 426px) {
-       font-size: 10px;
-      }
+      font-size: 10px;
+    }
   }
 `;
 
