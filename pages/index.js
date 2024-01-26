@@ -499,7 +499,7 @@ const Section2 = styled.div`
   justify-content: center;
   align-items: center; 
   text-align: center;
-  margin: 0 auto; 
+  margin: 0px 64px; 
     img{
       width: 100%;
     position: relative;
