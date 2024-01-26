@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from "@emotion/styled";
-function chineseseries() {
+function hitsong() {
   return (
-    <Chineseseries>
-   <div className="btn-back" ><span>
+    <Hitsong>
+    <div className="btn-back" ><span>
    <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-l.svg" alt="back"/>
    <small>Back</small>
    </span>
@@ -17,7 +17,7 @@ function chineseseries() {
    <div className="text">
      <h2>
        หมดเขตโหวต <br />
-       ซีรีส์จีนสุดปังแห่งปี
+       เพลงไทยมาแรงแห่งปี
      </h2>
    </div>
  </div>
@@ -26,23 +26,20 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_01.png"
-           alt="เหนือเมฆาชะตาลิขิต"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_01.png"
+           alt="Dum Dum"
          />
        </div>
        <div className="text">
-        <h2>เหนือเมฆาชะตาลิขิต <br/>
-        (My Journey to You)
-        </h2>  <br />
-       <p>iQIYI</p>
+        <h2>Dum Dum</h2>  <br />
+       <p>Jeff Satur</p>
        </div>
        
      </div>
      <div className="section-2">
      <div className="text">
-        <h2>เหนือเมฆาชะตาลิขิต <br/>
-        (My Journey to You)</h2>  <br />
-       <p>iQIYI</p>
+        <h2>Dum Dum</h2>  <br />
+       <p>Jeff Satur</p>
        </div>
        <div className="btn">
          <button>
@@ -56,24 +53,20 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_02.png"
-           alt="กฎล็อกลิขิตรัก"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_02.png"
+           alt="เป็นไรไหม"
          />
        </div>
        <div className="text">
-       <h2>กฎล็อกลิขิตรัก <br/>
-       (She and Her Perfect Husband)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เป็นไรไหม</h2>  <br />
+       <p>ต้าห์อู๋ พิทยา</p>
        </div>
      </div>
 
      <div className="section-2">
      <div className="text">
-     <h2>กฎล็อกลิขิตรัก <br/>
-     (She and Her Perfect Husband)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เป็นไรไหม</h2>  <br />
+       <p>ต้าห์อู๋ พิทยา</p>
        </div>
        <div className="btn">
          <button>
@@ -87,23 +80,19 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_03.png"
-           alt="เสียงกระซิบบอกว่ารัก"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_03.png"
+           alt="เพลงรัก"
          />
        </div>
        <div className="text">
-       <h2>เสียงกระซิบบอกว่ารัก <br/>
-        (Have a Crush on You)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เพลงรัก</h2>  <br />
+       <p>เจมีไนน์ นรวิชญ์</p>
        </div>
      </div>
      <div className="section-2">
      <div className="text">
-     <h2>เสียงกระซิบบอกว่ารัก <br/>
-        (Have a Crush on You)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เพลงรัก</h2>  <br />
+       <p>เจมีไนน์ นรวิชญ์</p>
        </div>
        <div className="btn">
          <button>
@@ -117,23 +106,19 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_04.png"
-           alt="ลำนำกระดูกหยก"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_04.png"
+           alt="หมอนอิง"
          />
        </div>
        <div className="text">
-       <h2>ลำนำกระดูกหยก <br/>
-        (The Longest Promise)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>หมอนอิง</h2>  <br />
+       <p>NuNew</p>
        </div>
      </div>
      <div className="section-2">
      <div className="text">
-     <h2>ลำนำกระดูกหยก <br/>
-        (The Longest Promise)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>หมอนอิง</h2>  <br />
+       <p>NuNew</p>
        </div>
        <div className="btn">
          <button>
@@ -147,23 +132,19 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_05.png"
-           alt="ห้วงคำนึงดวงใจนิรันดร์"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_05.png"
+           alt="เจ็บเมื่อไหร่"
          />
        </div>
        <div className="text">
-       <h2>ห้วงคำนึงดวงใจนิรันดร์ <br/>
-        (Lost You Forever)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เจ็บเมื่อไหร่</h2>  <br />
+       <p>คริส พีรวัส</p>
        </div>
      </div>
      <div className="section-2">
      <div className="text">
-     <h2>ห้วงคำนึงดวงใจนิรันดร์ <br/>
-        (Lost You Forever)
-        </h2>  <br />
-       <p>WeTV</p>
+        <h2>เจ็บเมื่อไหร่</h2>  <br />
+       <p>คริส พีรวัส</p>
        </div>
        <div className="btn">
          <button>
@@ -177,23 +158,19 @@ function chineseseries() {
      <div className="section-1">
        <div className="block">
          <img
-           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/08/cat-08-choice_06.png"
-           alt="กู้ภัยรัก นักดับเพลิง"
+           src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/10/cat-10-choice_06.png"
+           alt="KNOCK KNOCK"
          />
        </div>
        <div className="text">
-       <h2>กู้ภัยรัก นักดับเพลิง <br/>
-        (Fireworks Of My Heart)
-        </h2>  <br />
-       <p>iQIYI</p>
+        <h2>KNOCK KNOCK</h2>  <br />
+       <p>Nanon</p>
        </div>
      </div>
      <div className="section-2">
      <div className="text">
-     <h2>กู้ภัยรัก นักดับเพลิง <br/>
-        (Fireworks Of My Heart)
-        </h2>  <br />
-       <p>iQIYI</p>
+        <h2>KNOCK KNOCK</h2>  <br />
+       <p>Nanon</p>
        </div>
        <div className="btn">
          <button>
@@ -203,11 +180,11 @@ function chineseseries() {
      </div>
    </div>
  </div>
-</Chineseseries>
+</Hitsong>
 );
 }
-const Chineseseries = styled.div`
-     margin: auto;
+const Hitsong = styled.div`
+    margin: auto;
     max-width: 1300px;
     background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg), url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
     background-size: 750px auto,760px auto;
@@ -307,9 +284,9 @@ const Chineseseries = styled.div`
     flex-flow: column;
     padding: 0 10px;
     .text
-    { font-size: 10px;
+    {
         padding: 7px 10px;
-        line-height: 16px;
+        line-height: 9.5px;
     @media (min-width: 427px) {
     display: none;
     }
@@ -410,7 +387,7 @@ const Chineseseries = styled.div`
     .text {
     display: block;
     word-break: break-word;
-    font-size:11px;
+    
     line-height: 1.3;
     padding: 10px -1px;
     text-align: left;
@@ -455,4 +432,5 @@ const Chineseseries = styled.div`
     }
     }
 `;
-export default chineseseries
+
+export default hitsong

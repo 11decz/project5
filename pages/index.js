@@ -763,14 +763,14 @@ const Vote = styled.div`
     }
     .topartist {
       .text {
-        color: white;
+        color: black;
         top: 10px;
         left: 20px;
       }
     }
     .tpopartist {
       .text {
-        color: white;
+        color: black;
         bottom: 75px;
         padding: 0 30px;
       }
