@@ -246,6 +246,7 @@ const Bestdrama = styled.div`
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
+    
     &::before {
       box-sizing: border-box;
       content: "";
@@ -279,6 +280,7 @@ const Bestdrama = styled.div`
       margin-top: -2px;
       margin-right: 5px;
       width: 28px;
+      vertical-align: middle;
     }
     small {
       color: #fff;

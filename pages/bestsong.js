@@ -275,6 +275,7 @@ const Bestsong = styled.div`
       }
     }
     img {
+      vertical-align: middle;
       margin-top: -2px;
       margin-right: 5px;
       width: 28px;
