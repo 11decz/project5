@@ -9,12 +9,12 @@ function Home() {
       <Navigation>
         <div className="left-nav">
           <a href="https://www.sanook.com/" rel="noreferrer" target="_blank">
-          <img className="arrow"
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rb.svg"
-                alt="sanook.com"
-              />
+            <img
+              className="arrow"
+              src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rb.svg"
+              alt="sanook.com"
+            />
             <div className="logo">
-              
               <span>กลับไปเว็บไซต์</span>
               <img
                 src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-sanook-d.svg"
@@ -25,10 +25,10 @@ function Home() {
         </div>
         <div>
           <nav className="nav-text">
-          <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg"
-                alt="sanook.com"
-              />
+            <img
+              src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg"
+              alt="sanook.com"
+            />
             <a className="active">
               <span>ร่วมโหวตสนุกสุดจัด</span>
             </a>
@@ -46,14 +46,23 @@ function Home() {
       </Navigation>
       <Section2>
         <div className="sanook-sudjad">
-        <button className="share-btn">แชร์</button>
-        <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg" alt="สนุกสุดจัด 2023"/>
-        <div className="btn-2"><span></span><span></span><span></span></div>
+          <button className="share-btn">แชร์</button>
+          <img
+            src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg"
+            alt="สนุกสุดจัด 2023"
+          />
+          <div className="btn-2">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
         <div className="text">
           <h2>หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่</h2>
-          <span>1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com</span>
-          </div>
+          <span>
+            1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com
+          </span>
+        </div>
       </Section2>
       <Vote>
         <div className="section">
@@ -100,10 +109,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="topactress">
-            <a
-              title="นักแสดงหญิง,ยอดนิยมแห่งปี"
-              href="/topactress/"
-            >
+            <a title="นักแสดงหญิง,ยอดนิยมแห่งปี" href="/topactress/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png"
@@ -123,10 +129,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="malerisingstar">
-            <a
-              title="คนดังดาวรุ่งชาย,แห่งปี"
-              href="/malerisingstar/"
-            >
+            <a title="คนดังดาวรุ่งชาย,แห่งปี" href="/malerisingstar/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-04.png"
@@ -146,10 +149,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="femalerisingstar">
-            <a
-              title="คนดังดาวรุ่งหญิง,แห่งปี"
-              href="/femalerisingstar/"
-            >
+            <a title="คนดังดาวรุ่งหญิง,แห่งปี" href="/femalerisingstar/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-05.png"
@@ -205,10 +205,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="chineseseries">
-            <a
-              title="ซีรีส์จีนสุดปังแห่งปี"
-              href="/chineseseries/"
-            >
+            <a title="ซีรีส์จีนสุดปังแห่งปี" href="/chineseseries/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-08.png"
@@ -226,10 +223,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="bestmovies">
-            <a
-              title="ภาพยนตร์ไทย,ที่สุดแห่งปี"
-              href="/bestmovies/"
-            >
+            <a title="ภาพยนตร์ไทย,ที่สุดแห่งปี" href="/bestmovies/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-09.png"
@@ -278,7 +272,6 @@ function Home() {
               </div>
               <div className="text">
                 <span>
-                  
                   เพลงไทยยอดเยี่ยม <br /> แห่งปี
                 </span>
               </div>
@@ -317,7 +310,6 @@ function Home() {
               </div>
               <div className="text">
                 <span>
-                
                   ศิลปินเพลง T-POP <br /> แห่งปี
                 </span>
               </div>
@@ -329,10 +321,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="empoweringwoman">
-            <a
-              title="นางงาม,แรงบันดาลใจแห่งปี"
-              href="/empoweringwoman/"
-            >
+            <a title="นางงาม,แรงบันดาลใจแห่งปี" href="/empoweringwoman/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-14.png"
@@ -352,10 +341,7 @@ function Home() {
         </div>
         <div className="section">
           <div className="popularvote">
-            <a
-              title="สนุกสุดจัด,Popular Vote"
-              href="/popularvote/"
-            >
+            <a title="สนุกสุดจัด,Popular Vote" href="/popularvote/">
               <div className="pic">
                 <img
                   src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-15.png"
@@ -364,7 +350,6 @@ function Home() {
               </div>
               <div className="text">
                 <span>
-           
                   สนุกสุดจัด <br /> Popular Vote
                 </span>
               </div>
@@ -399,7 +384,7 @@ function Home() {
 
 const TopPage = styled.div`
   font-size: 14px;
- max-width: 1300px;
+  max-width: 1300px;
   margin: auto;
   background: rgb(255, 255, 255);
 `;
@@ -413,7 +398,7 @@ const Navigation = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  max-width: 100%; 
+  max-width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 0 15px;
@@ -422,7 +407,7 @@ const Navigation = styled.div`
     display: block;
     height: 100%;
     left: 0;
-    .arrow{
+    .arrow {
       transform: rotate(-180deg) translateY(50%);
       top: 50%;
       left: 0;
@@ -448,8 +433,7 @@ const Navigation = styled.div`
       display: inline-block;
       position: relative;
       color: #000;
-      padding-left: 35px
-       img {
+      padding-left: 35px img {
         height: 25px;
       }
     }
@@ -459,7 +443,7 @@ const Navigation = styled.div`
     display: flex;
     align-items: center;
     right: 0;
-    img{
+    img {
       margin-right: 5px;
       width: 15px;
     }
@@ -468,14 +452,14 @@ const Navigation = styled.div`
       text-decoration: none;
       color: #000;
       font-weight: bold;
-      
+
       &:hover {
         color: #eb2114;
       }
     }
     .active {
       color: #eb2114;
-      
+
       /* background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg);
       background-repeat: no-repeat;
       background-position: 3px center;
@@ -483,28 +467,28 @@ const Navigation = styled.div`
     }
   }
   @media (max-width: 426px) {
-     display: none;
-     }
+    display: none;
+  }
 `;
 const Section2 = styled.div`
   display: flex;
- flex-flow: row;
- justify-content: space-between;
- padding: 20px;
-  .sanook-sudjad{
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 20px;
+  .sanook-sudjad {
     max-width: 250px;
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center; 
-  text-align: center;
-  margin: 0px 64px; 
-    img{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 64px;
+    img {
       width: 100%;
-    position: relative;
-    z-index: 1;
-    &::after {
+      position: relative;
+      z-index: 1;
+      &::after {
         content: "";
         position: absolute;
         top: -3px;
@@ -518,17 +502,21 @@ const Section2 = styled.div`
       }
     }
     @keyframes spin {
-      from { transform: rotate(0deg); }
-      to { transform: rotate(360deg); }
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
     }
   }
-  .text{
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  text-align: center;
+  .text {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
   }
-  .share-btn{
+  .share-btn {
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -541,7 +529,7 @@ const Section2 = styled.div`
     z-index: 11;
     border: 0;
     outline: 0;
-    background-color: #E7E7E7;
+    background-color: #e7e7e7;
     background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/blink-red.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -549,7 +537,7 @@ const Section2 = styled.div`
     border-radius: 50%;
     color: #fff;
   }
-  .btn-2{
+  .btn-2 {
     display: block;
     background-color: #000;
     text-transform: uppercase;
@@ -565,42 +553,40 @@ const Section2 = styled.div`
     padding-top: 4px;
     border: 2px solid #fff;
     box-sizing: border-box;
-    span{
+    span {
       width: 60%;
-    height: 2px;
-    background-color: #fff;
-    display: block;
-    margin: 8px auto;
+      height: 2px;
+      background-color: #fff;
+      display: block;
+      margin: 8px auto;
     }
   }
   .share-btn,
-  .btn-2{
+  .btn-2 {
     @media (min-width: 426px) {
-    display: none;
-     
-  }
+      display: none;
+    }
   }
   @media (max-width: 426px) {
     flex-flow: column;
-     
   }
-  `;
+`;
 const Vote = styled.div`
   position: relative;
   display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
   box-sizing: border-box;
   .section {
     position: relative;
-   padding: 10px;
+    padding: 10px;
     column-gap: 10px;
     box-sizing: border-box;
     transition: transform 0.3s ease;
-   
+
     &:hover {
       animation: bounce2 2s ease infinite;
-     
+
       @keyframes bounce2 {
         100% {
           transform: translateY(0);
@@ -610,194 +596,193 @@ const Vote = styled.div`
         }
       }
     }
-    }
-    
-    .pic {   
-      position: relative;
-      img{
-         width: 100%;
-          max-width: 260px;
-      }  
-    }
+  }
 
-    .text {
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 20px;
+  .pic {
+    position: relative;
+    img {
+      width: 100%;
+      max-width: 260px;
+    }
+  }
+
+  .text {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+  }
+  .btn {
+    position: relative;
+    .vote-btn {
       position: absolute;
+      bottom: 3px;
       width: 100%;
       overflow: hidden;
+      color: white;
+      border: none;
+      background: #c0c0c0;
+      padding: 10px 10px;
+      width: 100%;
+      font-size: 30px;
     }
-    .btn {
-      position: relative;
-      .vote-btn {
-        position: absolute;
-        bottom: 3px;
-        width: 100%;
-        overflow: hidden;
-        color: white;
-        border: none;
-        background: #c0c0c0;
-        padding: 10px 10px;
-        width: 100%;
-        font-size: 30px;
-      }
-      .vote-btn-2 {
-        position: absolute;
-        bottom: 6px;
-        width: 100%;
-        overflow: hidden;
-        color: white;
-        border: none;
-        line-height: 30px;
-        background: #c0c0c0;
-        padding: 10px 10px;
-        width: 100%;
-        border-radius: 0 0 75px 75px;
-        font-size: 30px;
-        box-sizing: border-box;
-      }
-      .vote-btn-3 {
-        position: absolute;
-        bottom: 3px;
-        width: 100%;
-        overflow: hidden;
-        color: white;
-        border: none;
-        background: #c0c0c0;
-        padding: 10px 10px;
-        width: 100%;
-        border-radius: 0 0 75px 0;
-        font-size: 30px;
-      }
-      .vote-btn::after,
-      .vote-btn-2::after,
-      .vote-btn-3::after {
-        content: " > ";
-        color: white;
-        transform: translateY(-50%);
-      }
+    .vote-btn-2 {
+      position: absolute;
+      bottom: 6px;
+      width: 100%;
+      overflow: hidden;
+      color: white;
+      border: none;
+      line-height: 30px;
+      background: #c0c0c0;
+      padding: 10px 10px;
+      width: 100%;
+      border-radius: 0 0 75px 75px;
+      font-size: 30px;
+      box-sizing: border-box;
     }
+    .vote-btn-3 {
+      position: absolute;
+      bottom: 3px;
+      width: 100%;
+      overflow: hidden;
+      color: white;
+      border: none;
+      background: #c0c0c0;
+      padding: 10px 10px;
+      width: 100%;
+      border-radius: 0 0 75px 0;
+      font-size: 30px;
+    }
+    .vote-btn::after,
+    .vote-btn-2::after,
+    .vote-btn-3::after {
+      content: " > ";
+      color: white;
+      transform: translateY(-50%);
+    }
+  }
 
-    .imaginecouples {
-      .text {
-        color: white;
-        bottom: 76px;
-        left: 20px;
-        padding: 0 3px
-      }
+  .imaginecouples {
+    .text {
+      color: white;
+      bottom: 76px;
+      left: 20px;
+      padding: 0 3px;
     }
-    .topactor {
-      .text {
-        top: 7px;
-        left: 60px;
-        padding: 0 3px;
-        color: black;
-      }
+  }
+  .topactor {
+    .text {
+      top: 7px;
+      left: 60px;
+      padding: 0 3px;
+      color: black;
     }
-    .malerisingstar {
-      .text {
-        color: white;
+  }
+  .malerisingstar {
+    .text {
+      color: white;
 
-        top: 10px;
-        left: 20px;
-      }
+      top: 10px;
+      left: 20px;
     }
-    .topactress {
-      .text {
-        color: white;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .topactress {
+    .text {
+      color: white;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .femalerisingstar {
-      .text {
-        color: white;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .femalerisingstar {
+    .text {
+      color: white;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .bestseries {
-      .text {
-        color: white;
-        top: 20px;
-        left: 60px;
-        padding: 0 3px
-      }
+  }
+  .bestseries {
+    .text {
+      color: white;
+      top: 20px;
+      left: 60px;
+      padding: 0 3px;
     }
-    .bestdrama {
-      .text {
-        color: black;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .bestdrama {
+    .text {
+      color: black;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .chineseseries {
-      .text {
-        color: white;
-        top: 10px;
-        left: 20px;
-      }
+  }
+  .chineseseries {
+    .text {
+      color: white;
+      top: 10px;
+      left: 20px;
     }
-    .bestmovies {
-      .text {
-        color: white;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .bestmovies {
+    .text {
+      color: white;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .hitsong {
-      .text {
-        color: white;
-        top: 10px;
-        left: 60px;
-        padding: 0 3px
-      }
+  }
+  .hitsong {
+    .text {
+      color: white;
+      top: 10px;
+      left: 60px;
+      padding: 0 3px;
     }
-    .bestsong {
-      .text {
-        color: white;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .bestsong {
+    .text {
+      color: white;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .topartist {
-      .text {
-        color: black;
-        top: 10px;
-        left: 20px;
-      }
+  }
+  .topartist {
+    .text {
+      color: black;
+      top: 10px;
+      left: 20px;
     }
-    .tpopartist {
-      .text {
-        color: black;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .tpopartist {
+    .text {
+      color: black;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .empoweringwoman {
-      .text {
-        color: white;
-        top: 10px;
-        left: 60px;
-        padding: 0 3px
-      }
+  }
+  .empoweringwoman {
+    .text {
+      color: white;
+      top: 10px;
+      left: 60px;
+      padding: 0 3px;
     }
-    .popularvote {
-      .text {
-        color: white;
-        bottom: 75px;
-        padding: 0 30px;
-      }
+  }
+  .popularvote {
+    .text {
+      color: white;
+      bottom: 75px;
+      padding: 0 30px;
     }
-    .thaifolksong {
-      .text {
-        color: white;
-        top: 10px;
-        left: 20px;
-      }
+  }
+  .thaifolksong {
+    .text {
+      color: white;
+      top: 10px;
+      left: 20px;
     }
-  
+  }
 `;
 
 export default Home;

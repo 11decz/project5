@@ -1,4 +1,4 @@
-import './fonts/fonts.css'; 
+import './assets/fonts/fonts.css'; 
 import './assets/globals.css'; 
 function MyApp({ Component, pageProps }) {
  
