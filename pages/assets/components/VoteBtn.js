@@ -3,9 +3,10 @@ import styled from "@emotion/styled";
 import Popup from "reactjs-popup";
 import VoteData from "../../VoteData.json";
 import { keyframes } from "@emotion/react";
-function VoteBtn() {
-  const { vote, text } = VoteData;
-  const sortedVote = vote.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+function VoteBtn1() {
+  const { vote1, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote1.sort((a, b) => parseInt(b.point) - parseInt(a.point));
   const top3Users = sortedVote.slice(0, 3);
   return (
     <CustomPopup
@@ -31,7 +32,7 @@ function VoteBtn() {
                   <div>
                     <p>{item.user}</p>
                     <ProgressBar progress={parseInt(item.point)} />
-                    {console.log(parseInt(item.point))}
+                    {/* {console.log(parseInt(item.point))} */}
                   </div>
                 )}
               </div>
@@ -42,13 +43,215 @@ function VoteBtn() {
     </CustomPopup>
   );
 }
+
+function VoteBtn2() {
+  const { vote2, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote2.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+  const top3Users = sortedVote.slice(0, 3);
+  return (
+    <CustomPopup
+      trigger={
+        <Btn>
+          <button>
+            <span>โหวต</span>
+          </button>
+        </Btn>
+      }
+      modal
+    >
+      {(close) => (
+        <div className="modal">
+          <button className="close" onClick={close}>
+            &times;
+          </button>
+          <div className="content">
+            <div dangerouslySetInnerHTML={{ __html: text?.text }} />
+            {top3Users.map((item, index) => (
+              <div key={index}>
+                {item && (
+                  <div>
+                    <p>{item.user}</p>
+                    <ProgressBar progress={parseInt(item.point)} />
+                    {/* {console.log(parseInt(item.point))} */}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </CustomPopup>
+  );
+}
+
+function VoteBtn3() {
+  const { vote3, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote3.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+  const top3Users = sortedVote.slice(0, 3);
+  return (
+    <CustomPopup
+      trigger={
+        <Btn>
+          <button>
+            <span>โหวต</span>
+          </button>
+        </Btn>
+      }
+      modal
+    >
+      {(close) => (
+        <div className="modal">
+          <button className="close" onClick={close}>
+            &times;
+          </button>
+          <div className="content">
+            <div dangerouslySetInnerHTML={{ __html: text?.text }} />
+            {top3Users.map((item, index) => (
+              <div key={index}>
+                {item && (
+                  <div>
+                    <p>{item.user}</p>
+                    <ProgressBar progress={parseInt(item.point)} />
+                    {/* {console.log(parseInt(item.point))} */}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </CustomPopup>
+  );
+}
+
+function VoteBtn4() {
+  const { vote4, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote4.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+  const top3Users = sortedVote.slice(0, 3);
+  return (
+    <CustomPopup
+      trigger={
+        <Btn>
+          <button>
+            <span>โหวต</span>
+          </button>
+        </Btn>
+      }
+      modal
+    >
+      {(close) => (
+        <div className="modal">
+          <button className="close" onClick={close}>
+            &times;
+          </button>
+          <div className="content">
+            <div dangerouslySetInnerHTML={{ __html: text?.text }} />
+            {top3Users.map((item, index) => (
+              <div key={index}>
+                {item && (
+                  <div>
+                    <p>{item.user}</p>
+                    <ProgressBar progress={parseInt(item.point)} />
+                    {/* {console.log(parseInt(item.point))} */}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </CustomPopup>
+  );
+}
+
+function VoteBtn5() {
+  const { vote5, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote5.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+  const top3Users = sortedVote.slice(0, 3);
+  return (
+    <CustomPopup
+      trigger={
+        <Btn>
+          <button>
+            <span>โหวต</span>
+          </button>
+        </Btn>
+      }
+      modal
+    >
+      {(close) => (
+        <div className="modal">
+          <button className="close" onClick={close}>
+            &times;
+          </button>
+          <div className="content">
+            <div dangerouslySetInnerHTML={{ __html: text?.text }} />
+            {top3Users.map((item, index) => (
+              <div key={index}>
+                {item && (
+                  <div>
+                    <p>{item.user}</p>
+                    <ProgressBar progress={parseInt(item.point)} />
+                    {/* {console.log(parseInt(item.point))} */}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </CustomPopup>
+  );
+}
+
+function VoteBtn6() {
+  const { vote6, text } = VoteData;
+  // const { vote,vote1,vote2,vote3,vote4,vote5, text } = VoteData;
+  const sortedVote = vote6.sort((a, b) => parseInt(b.point) - parseInt(a.point));
+  const top3Users = sortedVote.slice(0, 3);
+  return (
+    <CustomPopup
+      trigger={
+        <Btn>
+          <button>
+            <span>โหวต</span>
+          </button>
+        </Btn>
+      }
+      modal
+    >
+      {(close) => (
+        <div className="modal">
+          <button className="close" onClick={close}>
+            &times;
+          </button>
+          <div className="content">
+            <div dangerouslySetInnerHTML={{ __html: text?.text }} />
+            {top3Users.map((item, index) => (
+              <div key={index}>
+                {item && (
+                  <div>
+                    <p>{item.user}</p>
+                    <ProgressBar progress={parseInt(item.point)} />
+                    {/* {console.log(parseInt(item.point))} */}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </CustomPopup>
+  );
+}
+
 const bounce = keyframes`
   from {width : 0%}
-  /* to {
-    width:''
-  } */
 
-  
 `;
 const ProgressBar = styled.div`
   position: relative;
@@ -146,4 +349,5 @@ const Btn = styled.div`
   }
 `;
 
-export default VoteBtn;
+export { VoteBtn1, VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 };
+

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function empoweringwoman() {
@@ -33,7 +33,7 @@ function empoweringwoman() {
           </div>
           <div className="section-2">
             <h2>เทีย ทวีพาณิชย์พันธุ์</h2>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -50,7 +50,7 @@ function empoweringwoman() {
 
           <div className="section-2">
             <h2>เกตุ เกตุวลี</h2>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -66,7 +66,7 @@ function empoweringwoman() {
           </div>
           <div className="section-2">
             <h2>เฟิร์น วรางคณา</h2>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -82,7 +82,7 @@ function empoweringwoman() {
           </div>
           <div className="section-2">
             <h2>อุ้ม ทวีพร</h2>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -98,7 +98,7 @@ function empoweringwoman() {
           </div>
           <div className="section-2">
             <h2>ขนม ทารีน่า</h2>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -114,7 +114,7 @@ function empoweringwoman() {
           </div>
           <div className="section-2">
             <h2>พลอย พลอยวรินทร์</h2>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>

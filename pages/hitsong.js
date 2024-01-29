@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function hitsong() {
@@ -38,7 +38,7 @@ function hitsong() {
               <h2>Dum Dum</h2> <br />
               <p>Jeff Satur</p>
             </div>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -61,7 +61,7 @@ function hitsong() {
               <h2>เป็นไรไหม</h2> <br />
               <p>ต้าห์อู๋ พิทยา</p>
             </div>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -83,7 +83,7 @@ function hitsong() {
               <h2>เพลงรัก</h2> <br />
               <p>เจมีไนน์ นรวิชญ์</p>
             </div>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function hitsong() {
               <h2>หมอนอิง</h2> <br />
               <p>NuNew</p>
             </div>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -127,7 +127,7 @@ function hitsong() {
               <h2>เจ็บเมื่อไหร่</h2> <br />
               <p>คริส พีรวัส</p>
             </div>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -149,7 +149,7 @@ function hitsong() {
               <h2>KNOCK KNOCK</h2> <br />
               <p>Nanon</p>
             </div>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>
@@ -210,7 +210,7 @@ const Hitsong = styled.div`
     display: flex;
     flex-flow: column;
     padding: 0 10px;
-    h2 {
+    .text {
       padding: 7px 10px;
       @media (min-width: 503px) {
         display: none;
@@ -257,7 +257,7 @@ const Hitsong = styled.div`
       .section-1 {
         background: #1d00ed;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -269,7 +269,7 @@ const Hitsong = styled.div`
       .section-1 {
         background: #000;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -307,20 +307,20 @@ const Hitsong = styled.div`
         flex: 0 0 50%;
         max-width: 35%;
       }
-      h2 {
+      .text {
         display: block;
         word-break: break-word;
-        font-weight: 600;
+        margin-right: auto;
         line-height: 1.3;
         padding: 10px 15px;
         text-align: left;
         margin-bottom: 20px;
         white-space: pre-line;
+        font-size: 15px;
         @media (max-width: 503px) {
           display: none;
         }
       }
-
     }
     @media (max-width: 426px) {
       font-size: 10px;

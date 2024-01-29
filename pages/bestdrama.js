@@ -1,6 +1,13 @@
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {
+  VoteBtn1,
+  VoteBtn2,
+  VoteBtn3,
+  VoteBtn4,
+  VoteBtn5,
+  VoteBtn6,
+} from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function bestdrama() {
@@ -9,7 +16,10 @@ function bestdrama() {
       <GoBack />
 
       <div className="sanook-sudjad">
-        <img src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg" alt="สนุกสุดจัด 2023" />
+        <img
+          src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg"
+          alt="สนุกสุดจัด 2023"
+        />
         <div className="text">
           <h2>
             หมดเขตโหวต <br />
@@ -37,7 +47,7 @@ function bestdrama() {
               <p>(ช่อง 3)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn1 />
             </div>
           </div>
         </div>
@@ -61,7 +71,7 @@ function bestdrama() {
               <p>(ช่อง 3)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn2 />
             </div>
           </div>
         </div>
@@ -85,7 +95,7 @@ function bestdrama() {
               <p>(ช่อง 3)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn3 />
             </div>
           </div>
         </div>
@@ -109,7 +119,7 @@ function bestdrama() {
               <p>(ช่อง one31)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn4 />
             </div>
           </div>
         </div>
@@ -133,7 +143,7 @@ function bestdrama() {
               <p>(ช่อง 7)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn5 />
             </div>
           </div>
         </div>
@@ -157,7 +167,7 @@ function bestdrama() {
               <p>(WeTV Original)</p>
             </div>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn6 />
             </div>
           </div>
         </div>
@@ -219,7 +229,7 @@ const Bestdrama = styled.div`
     display: flex;
     flex-flow: column;
     padding: 0 10px;
-    h2 {
+    .text {
       padding: 7px 10px;
       @media (min-width: 503px) {
         display: none;
@@ -266,7 +276,7 @@ const Bestdrama = styled.div`
       .section-1 {
         background: #1d00ed;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -278,7 +288,7 @@ const Bestdrama = styled.div`
       .section-1 {
         background: #000;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -316,20 +326,20 @@ const Bestdrama = styled.div`
         flex: 0 0 50%;
         max-width: 35%;
       }
-      h2 {
+      .text {
         display: block;
         word-break: break-word;
-        font-weight: 600;
+        margin-right: auto;
         line-height: 1.3;
         padding: 10px 15px;
         text-align: left;
         margin-bottom: 20px;
         white-space: pre-line;
+        font-size: 15px;
         @media (max-width: 503px) {
           display: none;
         }
       }
-
     }
     @media (max-width: 426px) {
       font-size: 10px;

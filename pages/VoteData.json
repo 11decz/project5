@@ -7,7 +7,7 @@
   }
    
   ,
-    "vote": [
+    "vote1": [
         
       {
         "user": "081111XXXX",
@@ -26,7 +26,103 @@
         "point": "10%"
       }
     ]
-  
+    ,
+    "vote2": [
+        
+      {
+        "user": "081111XXXX",
+        "point": "30%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "20%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "5%"
+      },
+      {
+        "user": "093333XXXX",
+        "point": "25%"
+      }
+    ]
+    ,
+    "vote3": [
+        
+      {
+        "user": "081111XXXX",
+        "point": "88%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "60%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "75%"
+      },
+      {
+        "user": "093333XXXX",
+        "point": "33%"
+      }
+    ],
+    "vote4": [
+        
+      {
+        "user": "081111XXXX",
+        "point": "90%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "40%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "5%"
+      },
+      {
+        "user": "093333XXXX",
+        "point": "10%"
+      }
+    ],
+    "vote5": [
+        
+      {
+        "user": "081111XXXX",
+        "point": "80%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "32%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "63%"
+      },
+      {
+        "user": "093333XXXX",
+        "point": "12%"
+      }
+    ],
+    "vote6": [
+        
+      {
+        "user": "081111XXXX",
+        "point": "43%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "12%"
+      },
+      {
+        "user": "062222XXXX",
+        "point": "5%"
+      },
+      {
+        "user": "093333XXXX",
+        "point": "3%"
+      }
+    ]
     
   }
   

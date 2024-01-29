@@ -1,9 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
+
 function imaginecouples() {
   return (
     <Imaginecouples>
@@ -35,7 +36,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>ฟรีน-เบ็คกี้</h2>
 
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -53,7 +54,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>เจมีไนน์-โฟร์ท</h2>
 
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -70,7 +71,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>อิงฟ้า-ชาล็อต</h2>
 
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -87,7 +88,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>เน็ต-เจมส์</h2>
 
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -104,7 +105,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>ซี-นุนิว</h2>
 
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -121,7 +122,7 @@ function imaginecouples() {
           <div className="section-2">
             <h2>ฟอส-บุ๊ค</h2>
 
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>

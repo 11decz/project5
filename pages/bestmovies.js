@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function bestmovies() {
@@ -33,7 +33,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>แมนสรวง</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn1 />
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>ดับแสงรวี</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn2 />
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>ลอง ลีฟ เลิฟว์!</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn3 />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>รักแรกโคตรลืมยาก</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn4 />
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>สัปเหร่อ</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn5 />
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ function bestmovies() {
           <div className="section-2">
             <h2>ธี่หยด</h2>
             <div className="btn">
-              <VoteBtn />
+              <VoteBtn6 />
             </div>
           </div>
         </div>
@@ -135,7 +135,8 @@ function bestmovies() {
 }
 
 const Bestmovies = styled.div`
-  margin: auto;
+
+margin: auto;
   max-width: 1300px;
   background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg),
     url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
@@ -284,6 +285,7 @@ const Bestmovies = styled.div`
         max-width: 35%;
       }
       h2 {
+        margin-right: auto;
         display: block;
         word-break: break-word;
         font-weight: 600;
@@ -297,7 +299,6 @@ const Bestmovies = styled.div`
         }
       }
 
-      
     }
     @media (max-width: 426px) {
       font-size: 10px;

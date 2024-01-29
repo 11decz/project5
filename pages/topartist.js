@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function topartist() {
@@ -32,7 +32,7 @@ function topartist() {
           </div>
           <div className="section-2">
             <h2>NuNew</h2>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -49,7 +49,7 @@ function topartist() {
 
           <div className="section-2">
             <h2>Paper Planes</h2>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -65,7 +65,7 @@ function topartist() {
           </div>
           <div className="section-2">
             <h2>Jeff Satur</h2>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -81,7 +81,7 @@ function topartist() {
           </div>
           <div className="section-2">
             <h2>Only Monday</h2>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -97,7 +97,7 @@ function topartist() {
           </div>
           <div className="section-2">
             <h2>PP Krit</h2>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -113,7 +113,7 @@ function topartist() {
           </div>
           <div className="section-2">
             <h2>คริส พีรวัส</h2>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>

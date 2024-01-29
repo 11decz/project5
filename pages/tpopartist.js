@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function tpopartist() {
@@ -33,7 +33,7 @@ function tpopartist() {
           </div>
           <div className="section-2">
             <h2>PiXXiE</h2>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -50,7 +50,7 @@ function tpopartist() {
 
           <div className="section-2">
             <h2>4EVE</h2>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -66,7 +66,7 @@ function tpopartist() {
           </div>
           <div className="section-2">
             <h2>PROXIE</h2>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -82,7 +82,7 @@ function tpopartist() {
           </div>
           <div className="section-2">
             <h2>TRINITY</h2>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -98,7 +98,7 @@ function tpopartist() {
           </div>
           <div className="section-2">
             <h2>ATLAS</h2>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -114,7 +114,7 @@ function tpopartist() {
           </div>
           <div className="section-2">
             <h2>LYKN</h2>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>

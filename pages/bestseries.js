@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function bestseries() {
@@ -38,7 +38,7 @@ function bestseries() {
               <h2>ทฤษฎีสีชมพู</h2> <br />
               <p>GAP The Series</p>
             </div>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -61,7 +61,7 @@ function bestseries() {
               <h2>แฟนผมเป็นประธานนักเรียน</h2> <br />
               <p>My School President</p>
             </div>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -83,7 +83,7 @@ function bestseries() {
               <h2>แค่อยากบอกรัก</h2> <br />
               <p>Show Me Love The Series</p>
             </div>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function bestseries() {
               <h2>อย่าเล่นกับอนล</h2> <br />
               <p>Bed Friend Series</p>
             </div>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -127,7 +127,7 @@ function bestseries() {
               <h2>กฎแห่งรักดึงดูด</h2> <br />
               <p>Laws of Attraction</p>
             </div>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -149,7 +149,7 @@ function bestseries() {
               <h2>พระจันทร์มันไก่</h2> <br />
               <p>Moonlight Chicken</p>
             </div>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@ function bestseries() {
 }
 
 const Bestseries = styled.div`
-  margin: auto;
+ margin: auto;
   max-width: 1300px;
   background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg),
     url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/obj/star-black.svg);
@@ -210,7 +210,7 @@ const Bestseries = styled.div`
     display: flex;
     flex-flow: column;
     padding: 0 10px;
-    h2 {
+    .text {
       padding: 7px 10px;
       @media (min-width: 503px) {
         display: none;
@@ -257,7 +257,7 @@ const Bestseries = styled.div`
       .section-1 {
         background: #1d00ed;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -269,7 +269,7 @@ const Bestseries = styled.div`
       .section-1 {
         background: #000;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -307,21 +307,20 @@ const Bestseries = styled.div`
         flex: 0 0 50%;
         max-width: 35%;
       }
-      h2 {
+      .text {
         display: block;
         word-break: break-word;
-        font-weight: 600;
+        margin-right: auto;
         line-height: 1.3;
         padding: 10px 15px;
         text-align: left;
         margin-bottom: 20px;
         white-space: pre-line;
+        font-size: 15px;
         @media (max-width: 503px) {
           display: none;
         }
       }
-
-      
     }
     @media (max-width: 426px) {
       font-size: 10px;

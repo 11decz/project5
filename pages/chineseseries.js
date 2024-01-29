@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function chineseseries() {
@@ -47,7 +47,7 @@ function chineseseries() {
               <br />
               <p>iQIYI</p>
             </div>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -78,7 +78,7 @@ function chineseseries() {
               <br />
               <p>WeTV</p>
             </div>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -108,7 +108,7 @@ function chineseseries() {
               <br />
               <p>WeTV</p>
             </div>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -138,7 +138,7 @@ function chineseseries() {
               <br />
               <p>WeTV</p>
             </div>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -168,7 +168,7 @@ function chineseseries() {
               <br />
               <p>WeTV</p>
             </div>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -198,7 +198,7 @@ function chineseseries() {
               <br />
               <p>iQIYI</p>
             </div>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>
@@ -259,7 +259,7 @@ const Chineseseries = styled.div`
     display: flex;
     flex-flow: column;
     padding: 0 10px;
-    h2 {
+    .text {
       padding: 7px 10px;
       @media (min-width: 503px) {
         display: none;
@@ -306,7 +306,7 @@ const Chineseseries = styled.div`
       .section-1 {
         background: #1d00ed;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -318,7 +318,7 @@ const Chineseseries = styled.div`
       .section-1 {
         background: #000;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -356,7 +356,7 @@ const Chineseseries = styled.div`
         flex: 0 0 50%;
         max-width: 35%;
       }
-      h2 {
+      .text {
         display: block;
         word-break: break-word;
         font-weight: 600;
@@ -365,10 +365,12 @@ const Chineseseries = styled.div`
         text-align: left;
         margin-bottom: 20px;
         white-space: pre-line;
+        font-size: 11px;
         @media (max-width: 503px) {
           display: none;
         }
       }
+     
 
     }
     @media (max-width: 426px) {

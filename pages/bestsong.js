@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-import VoteBtn from "./assets/components/VoteBtn";
+import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6 }from "./assets/components/VoteBtn";
 import GoTop from "./assets/components/GoTop-Btn";
 import GoBack from "./assets/components/Back-Btn";
 function bestsong() {
@@ -40,7 +40,7 @@ function bestsong() {
               <h2>ยินดี</h2> <br />
               <p>sarah salola</p>
             </div>
-            <VoteBtn />
+            <VoteBtn1 />
           </div>
         </div>
 
@@ -63,7 +63,7 @@ function bestsong() {
               <h2>รักแรก</h2> <br />
               <p>นนท์ ธนนท์</p>
             </div>
-            <VoteBtn />
+            <VoteBtn2 />
           </div>
         </div>
 
@@ -85,7 +85,7 @@ function bestsong() {
               <h2>หยดน้ำตา</h2> <br />
               <p>4EVE</p>
             </div>
-            <VoteBtn />
+            <VoteBtn3 />
           </div>
         </div>
 
@@ -107,7 +107,7 @@ function bestsong() {
               <h2>ดาวหางฮัลเลย์</h2> <br />
               <p>fellow fellow</p>
             </div>
-            <VoteBtn />
+            <VoteBtn4 />
           </div>
         </div>
 
@@ -129,7 +129,7 @@ function bestsong() {
               <h2>ฉันมันเป็นคนแบบนี้</h2> <br />
               <p>บูม สหรัฐ</p>
             </div>
-            <VoteBtn />
+            <VoteBtn5 />
           </div>
         </div>
 
@@ -151,7 +151,7 @@ function bestsong() {
               <h2>ธาตุทองซาวด์</h2> <br />
               <p>YOUNGOHM</p>
             </div>
-            <VoteBtn />
+            <VoteBtn6 />
           </div>
         </div>
       </div>
@@ -212,7 +212,7 @@ const Bestsong = styled.div`
     display: flex;
     flex-flow: column;
     padding: 0 10px;
-    h2 {
+    .text {
       padding: 7px 10px;
       @media (min-width: 503px) {
         display: none;
@@ -259,7 +259,7 @@ const Bestsong = styled.div`
       .section-1 {
         background: #1d00ed;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -271,7 +271,7 @@ const Bestsong = styled.div`
       .section-1 {
         background: #000;
       }
-      h2 {
+      .text {
         color: #fff;
       }
       @media (max-width: 503px) {
@@ -309,20 +309,20 @@ const Bestsong = styled.div`
         flex: 0 0 50%;
         max-width: 35%;
       }
-      h2 {
+      .text {
         display: block;
         word-break: break-word;
-        font-weight: 600;
+        margin-right: auto;
         line-height: 1.3;
         padding: 10px 15px;
         text-align: left;
         margin-bottom: 20px;
         white-space: pre-line;
+        font-size: 15px;
         @media (max-width: 503px) {
           display: none;
         }
       }
-
     }
     @media (max-width: 426px) {
       font-size: 10px;
