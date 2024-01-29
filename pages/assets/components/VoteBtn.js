@@ -2,8 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import Popup from "reactjs-popup";
 import VoteData from "../../VoteData.json";
-
-
+import { keyframes } from "@emotion/react";
 function VoteBtn() {
   const { vote, text } = VoteData;
   const sortedVote = vote.sort((a, b) => parseInt(b.point) - parseInt(a.point));
@@ -32,6 +31,7 @@ function VoteBtn() {
                   <div>
                     <p>{item.user}</p>
                     <ProgressBar progress={parseInt(item.point)} />
+                    {console.log(parseInt(item.point))}
                   </div>
                 )}
               </div>
@@ -42,8 +42,16 @@ function VoteBtn() {
     </CustomPopup>
   );
 }
+const bounce = keyframes`
+  from {width : 0%}
+  /* to {
+    width:''
+  } */
 
+  
+`;
 const ProgressBar = styled.div`
+  position: relative;
   background-color: #ddd;
   height: 17px;
   border-radius: 10px;
@@ -61,15 +69,7 @@ const ProgressBar = styled.div`
     line-height: 17px;
     color: #ddd;
     font-size: 10px;
-    animation: progressBarAnimation 1s ease-out;
-    @keyframes progressBarAnimation {
-  from {
-    width: 0;
-  }
-  to {
-    width: ${(props) => props.progress}%;
-  }
-}
+    animation: ${bounce} 1s ease;
   }
 `;
 
@@ -102,14 +102,13 @@ const CustomPopup = styled(Popup)`
 
     .content {
       margin-top: 10px;
-      h3{
+      h3 {
         margin-bottom: 10px;
       }
       h4 {
         justify-content: center;
         text-align: center;
         margin-bottom: 5px;
-        
       }
 
       p {
