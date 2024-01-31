@@ -63,7 +63,6 @@ function GroupIndex({ data }) {
 }
 export async function getServerSideProps({ req, res,query }) {
   const resData = await PageData;
-  console.log(query.cid);
   return { props: { data:resData[query.cid]} }
 }
 
