@@ -2,22 +2,40 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styled from "@emotion/styled";
-
-function Home() {
+import GoTop from "./assets/components/GoTop-Btn";
+import { VoteCover1,VoteCover2,VoteCover3 } from "./assets/components/VoteBtn-Index";
+import PageIndex from "./PageIndex.json";
+function Home({data}) {
+ 
+  const {vote,navigation, section2}= data;
+   const VoteComponent = (voteBtn) => {
+    switch (voteBtn) {
+      case 'VoteCover1':
+        return <VoteCover1 />;
+      case 'VoteCover2':
+        return <VoteCover2 />;
+      case 'VoteCover3':
+        return <VoteCover3 />;
+    
+      default:
+        return null;
+    }
+  };
+  
   return (
     <TopPage>
       <Navigation>
-        <div className="left-nav">
-          <a href="https://www.sanook.com/" rel="noreferrer" target="_blank">
+      <div className="left-nav">
+          <a href={navigation.leftNav.link} rel="noreferrer" target="_blank">
             <img
               className="arrow"
-              src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rb.svg"
+              src={navigation.leftNav.imageSrc}
               alt="sanook.com"
             />
             <div className="logo">
-              <span>กลับไปเว็บไซต์</span>
+              <span>{navigation.leftNav.logo.text}</span>
               <img
-                src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-sanook-d.svg"
+                src={navigation.leftNav.logo.imageSrc}
                 alt="sanook.com"
               />
             </div>
@@ -29,359 +47,61 @@ function Home() {
               src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg"
               alt="sanook.com"
             />
-            <a className="active">
-              <span>ร่วมโหวตสนุกสุดจัด</span>
-            </a>
-            <a href="/topoftheyear/sanookchoice/">
-              <span>Sanook Choice</span>
-            </a>
-            <a href="/topoftheyear/articles/">
-              <span>รวมที่สุดแห่งปี 2023</span>
-            </a>
-            <a href="/topoftheyear/termsandconditions/">
-              <span>กติกาและเงื่อนไขกิจกรรม</span>
-            </a>
+            {navigation.navText.map((navItem, index) => (
+              <a key={index} className={navItem.active ? 'active' : ''} href={navItem.href}>
+                <span>{navItem.text}</span>
+              </a>
+            ))}
           </nav>
         </div>
       </Navigation>
       <Section2>
         <div className="sanook-sudjad">
-          <button className="share-btn">แชร์</button>
+          <button className="share-btn">{section2.sanookSudjad.shareBtn}</button>
           <img
-            src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg"
+            src={section2.sanookSudjad.imageSrc}
             alt="สนุกสุดจัด 2023"
           />
           <div className="btn-2">
-            <span></span>
-            <span></span>
-            <span></span>
+            {section2.sanookSudjad.btn2.spans.map((span, index) => (
+              <span key={index}></span>
+            ))}
           </div>
         </div>
         <div className="text">
-          <h2>หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่</h2>
-          <span>
-            1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com
-          </span>
+          <h2>{section2.text.heading}</h2>
+          <span>{section2.text.dateInfo}</span>
         </div>
       </Section2>
       <Vote>
-        <div className="section">
-          <div className="imaginecouples">
-            <a title="คู่จิ้นที่สุดแห่งปี" href="/imaginecouples/">
+      {vote.categories.map((item, index) => (
+        <div key={index} className="section">
+          <div className={item.href.replace('/', '')}>
+            <a title={item.title} href={item.href}>
               <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png"
-                  alt="คู่จิ้นที่สุดแห่งปี"
-                />
+                <img src={item.imageSrc} alt={item.name} />
               </div>
-              <p className="text">
-                <span>คู่จิ้นที่สุดแห่งปี</span>
-              </p>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
+              {/* <div className="text">
+                <span dangerouslySetInnerHTML={{ __html: item.name }} />
+              </div> */}
+              {VoteComponent(item.voteBtn)}
             </a>
           </div>
         </div>
-        <div className="section">
-          <div className="topactor">
-            <a title="นักแสดงชาย,ยอดนิยมแห่งปี" href="/topactor/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-02.png"
-                  alt="นักแสดงชาย,ยอดนิยมแห่งปี"
-                />
-              </div>
-              <p className="text">
-                <span>
-                  นักแสดงชาย
-                  <br />
-                  ยอดนิยมแห่งปี
-                </span>
-              </p>
-              <div>
-                <div className="btn">
-                  <button className="vote-btn-2">โหวต</button>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="topactress">
-            <a title="นักแสดงหญิง,ยอดนิยมแห่งปี" href="/topactress/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png"
-                  alt="นักแสดงหญิง,ยอดนิยมแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  นักแสดงหญิง <br /> ยอดนิยมแห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="malerisingstar">
-            <a title="คนดังดาวรุ่งชาย,แห่งปี" href="/malerisingstar/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-04.png"
-                  alt="คนดังดาวรุ่งชาย,แห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  คนดังดาวรุ่งชาย <br /> แห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-3">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="femalerisingstar">
-            <a title="คนดังดาวรุ่งหญิง,แห่งปี" href="/femalerisingstar/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-05.png"
-                  alt="คนดังดาวรุ่งหญิง,แห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  คนดังดาวรุ่งหญิง <br /> แห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="bestseries">
-            <a title="ซีรีส์ที่สุดแห่งปี" href="/bestseries/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-06.png"
-                  alt="ซีรีส์ที่สุดแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>ซีรีส์ที่สุดแห่งปี</span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-2">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="bestdrama">
-            <a title="ละครไทยที่สุดแห่งปี" href="/bestdrama/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-07.png"
-                  alt="ละครไทยที่สุดแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>ละครไทยที่สุดแห่งปี</span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="chineseseries">
-            <a title="ซีรีส์จีนสุดปังแห่งปี" href="/chineseseries/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-08.png"
-                  alt="ซีรีส์จีนสุดปังแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>ซีรีส์จีนสุดปังแห่งปี</span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-3">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="bestmovies">
-            <a title="ภาพยนตร์ไทย,ที่สุดแห่งปี" href="/bestmovies/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-09.png"
-                  alt="ภาพยนตร์ไทย,ที่สุดแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  ภาพยนตร์ไทย <br /> ที่สุดแห่งปี{" "}
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="hitsong">
-            <a title="เพลงไทยมาแรง,แห่งปี" href="/hitsong/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-10.png"
-                  alt="เพลงไทยมาแรง,แห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  เพลงไทยมาแรง <br /> แห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-2">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="bestsong">
-            <a title="เพลงไทยยอดเยี่ยม,แห่งปี" href="/bestsong/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-11.png"
-                  alt="เพลงไทยยอดเยี่ยม,แห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  เพลงไทยยอดเยี่ยม <br /> แห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="topartist">
-            <a title="ศิลปินดาวรุ่งแห่งปี" href="/topartist/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-12.png"
-                  alt="ศิลปินดาวรุ่งแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>ศิลปินดาวรุ่งแห่งปี</span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-3">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="tpopartist">
-            <a title="ศิลปินเพลง T-POP,แห่งปี" href="/tpopartist/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-13.png"
-                  alt="ศิลปินเพลง T-POP,แห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  ศิลปินเพลง T-POP <br /> แห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="empoweringwoman">
-            <a title="นางงาม,แรงบันดาลใจแห่งปี" href="/empoweringwoman/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-14.png"
-                  alt="นางงาม,แรงบันดาลใจแห่งปี"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  นางงาม <br /> แรงบันดาลใจแห่งปี
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-2">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="popularvote">
-            <a title="สนุกสุดจัด,Popular Vote" href="/popularvote/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-15.png"
-                  alt="สนุกสุดจัด,Popular Vote"
-                />
-              </div>
-              <div className="text">
-                <span>
-                  สนุกสุดจัด <br /> Popular Vote
-                </span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div className="section">
-          <div className="thaifolksong">
-            <a title="นักร้องลูกทุ่งยอดนิยม" href="/thaifolksong/">
-              <div className="pic">
-                <img
-                  src="https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-16.png"
-                  alt="นักร้องลูกทุ่งยอดนิยม"
-                />
-              </div>
-              <div className="text">
-                <span>นักร้องลูกทุ่งยอดนิยม</span>
-              </div>
-              <div className="btn">
-                <button className="vote-btn-3">โหวต</button>
-              </div>
-            </a>
-          </div>
-        </div>
+      ))}
+   
       </Vote>
+      <GoTop/>
     </TopPage>
   );
 }
 
+export async function getServerSideProps() {
+  const res = await PageIndex;
+  // const data = await res.json()
+  console.log(res);
+  return { props: { data:res } }
+}
 const TopPage = styled.div`
   font-size: 14px;
   max-width: 1300px;
@@ -614,7 +334,7 @@ const Vote = styled.div`
     width: 100%;
     overflow: hidden;
   }
-  .btn {
+  /* .btn {
     position: relative;
     .vote-btn {
       position: absolute;
@@ -663,7 +383,7 @@ const Vote = styled.div`
       color: white;
       transform: translateY(-50%);
     }
-  }
+  } */
 
   .imaginecouples {
     .text {

@@ -1,0 +1,40 @@
+{"bestdrama": [
+          
+    {
+      "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_01.png",
+      "name": "มาตาลดา",
+      "ch": "ช่อง 3",
+      "VoteBtn":"VoteBtn1"
+    },
+    {
+        "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_02.png",
+        "name": "พรหมลิขิต",
+        "ch":"ช่อง 3",
+        "VoteBtn":"VoteBtn2"
+    },
+    {
+        "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_03.png",
+        "name": "เกมรักทรยศ",
+        "ch":"ช่อง 3",
+        "VoteBtn":"VoteBtn3"
+    },
+    {
+        "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_04.png",
+        "name": "รัก...ร้าย",
+        "ch":"ช่อง one31",
+        "VoteBtn":"VoteBtn4"
+    },
+    {
+        "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_05.png",
+        "name": "ลมพัดผ่านดาว",
+        "ch":"ช่อง 7",
+        "VoteBtn":"VoteBtn5"
+    },
+    {
+        "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/07/cat-07-choice_06.png",
+        "name": "เมียหลวง",
+        "ch":"WeTV Original",
+        "VoteBtn":"VoteBtn6"
+    }
+  ]
+}

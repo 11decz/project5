@@ -1,0 +1,39 @@
+{"imaginecouples":[
+    {
+      "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_01.png",
+      "name": "ฟรีน-เบ็คกี้",
+      
+      "VoteBtn":"VoteBtn1"
+  },
+  {
+    "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_02.png",
+    "name": "เจมีไนน์-โฟร์ท",
+   
+    "VoteBtn":"VoteBtn2"
+},
+{
+  "img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_03.png",
+  "name": "อิงฟ้า-ชาล็อต",
+  
+  "VoteBtn":"VoteBtn3"
+},
+{
+"img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_04.png",
+"name": "เน็ต-เจมส์",
+
+"VoteBtn":"VoteBtn4"
+},
+{
+"img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_05.png",
+"name": "ซี-นุนิว",
+
+"VoteBtn":"VoteBtn5"
+},
+{
+"img": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/choice/01/cat-01-choice_06.png",
+"name": "ฟอส-บุ๊ค",
+
+"VoteBtn":"VoteBtn6"
+}
+  ]
+}

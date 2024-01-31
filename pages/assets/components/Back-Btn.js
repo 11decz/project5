@@ -58,9 +58,12 @@ const BackBtn = styled.div`
     }
     img {
       vertical-align: middle;
-      margin-top: -2px;
+      margin-top: -5px;
       margin-right: 5px;
       width: 22px;
+      @media (max-width: 426px) {
+        margin-top: -13px;
+      }
     }
     small {
       display: inline-block;

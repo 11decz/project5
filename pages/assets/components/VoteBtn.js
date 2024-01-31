@@ -346,6 +346,11 @@ const Btn = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 503px) {
+      width: 45%;
+    right: 6px;
+    bottom: 7px;
+      }
   }
 `;
 

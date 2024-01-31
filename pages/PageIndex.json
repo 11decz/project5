@@ -1,0 +1,163 @@
+{
+  
+    "navigation": {
+      "leftNav": {
+        "link": "https://www.sanook.com/",
+        "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rb.svg",
+        "logo": {
+          "text": "กลับไปเว็บไซต์",
+          "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo-sanook-d.svg"
+        }
+      },
+      "navText": [
+        {
+          "active": true,
+          "text": "ร่วมโหวตสนุกสุดจัด"
+        },
+        {
+          "href": "/topoftheyear/sanookchoice/",
+          "text": "Sanook Choice"
+        },
+        {
+          "href": "/topoftheyear/articles/",
+          "text": "รวมที่สุดแห่งปี 2023"
+        },
+        {
+          "href": "/topoftheyear/termsandconditions/",
+          "text": "กติกาและเงื่อนไขกิจกรรม"
+        }
+      ]
+    },
+    "section2": {
+      "sanookSudjad": {
+        "shareBtn": "แชร์",
+        "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/logo.svg",
+        "btn2": {
+          "spans": ["", "", ""]
+        }
+      },
+      "text": {
+        "heading": "หมดเขตโหวต ติดตามรายชื่อผู้ชนะได้ในวันที่",
+        "dateInfo": "1 กุมภาพันธ์ 2567 ทาง Facebook, Twitter และ เว็บไซต์ sanook.com"
+      }
+    },
+  
+      "vote": {
+        "categories": [
+          {
+            "name": "คู่จิ้นที่สุดแห่งปี",
+            "href": "/imaginecouples/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png",
+            "title":"คู่จิ้นที่สุดแห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "นักแสดงชาย<br />ยอดนิยมแห่งปี",
+            "href": "/topactor/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-02.png",
+            "title":"นักแสดงชาย ยอดนิยมแห่งปี",
+            "voteBtn": "VoteCover2"
+          },
+          {
+            "name": "นักแสดงหญิง <br /> ยอดนิยมแห่งปี",
+            "href": "/topactress/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-03.png",
+            "title":"นักแสดงหญิง ยอดนิยมแห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "คนดังดาวรุ่งชาย <br /> แห่งปี",
+            "href": "/malerisingstar/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-04.png",
+            "title":"คนดังดาวรุ่งชาย แห่งปี",
+            "voteBtn": "VoteCover3"
+          },
+          {
+            "name": "คนดังดาวรุ่งหญิง <br /> แห่งปี",
+            "href": "/femalerisingstar/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-05.png",
+            "title":"คนดังดาวรุ่งหญิง แห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "ซีรีส์ที่สุดแห่งปี",
+            "href": "/bestseries/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-06.png",
+            "title":"ซีรีส์ที่สุดแห่งปี",
+            "voteBtn": "VoteCover2"
+          },
+          {
+            "name": "ละครไทยที่สุดแห่งปี",
+            "href": "/bestdrama/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-07.png",
+            "title":"ละครไทยที่สุดแห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "ซีรีส์จีนสุดปังแห่งปี",
+            "href": "/chineseseries/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-08.png",
+            "title":"ซีรีส์จีนสุดปังแห่งปี",
+            "voteBtn": "VoteCover3"
+          },
+          {
+            "name": " ภาพยนตร์ไทย <br /> ที่สุดแห่งปี",
+            "href": "/bestmovies/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-09.png",
+            "title":"ภาพยนตร์ไทย ที่สุดแห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "เพลงไทยมาแรง <br /> แห่งปี",
+            "href": "/hitsong/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-10.png",
+            "title":"เพลงไทยมาแรงแห่งปี",
+            "voteBtn": "VoteCover2"
+          },
+          {
+            "name": "เพลงไทยยอดเยี่ยม <br /> แห่งปี",
+            "href": "/bestsong/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-11.png",
+            "title":"เพลงไทยยอดเยี่ยมแห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "ศิลปินดาวรุ่งแห่งปี",
+            "href": "/topartist/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-12.png",
+            "title":"ศิลปินดาวรุ่งแห่งปี",
+            "voteBtn": "VoteCover3"
+          },
+          {
+            "name": "ศิลปินเพลง T-POP <br /> แห่งปี",
+            "href": "/tpopartist/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-13.png",
+            "title":"ศิลปินเพลง T-POP แห่งปี",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "นางงาม <br /> แรงบันดาลใจแห่งปี",
+            "href": "/empoweringwoman/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-14.png",
+            "title":"นางงามแรงบันดาลใจแห่งปี",
+            "voteBtn": "VoteCover2"
+          },
+          {
+            "name": "สนุกสุดจัด <br /> Popular Vote",
+            "href": "/popularvote/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-15.png",
+            "title":"สนุกสุดจัด Popular Vote",
+            "voteBtn": "VoteCover1"
+          },
+          {
+            "name": "นักร้องลูกทุ่งยอดนิยม",
+            "href": "/thaifolksong/",
+            "imageSrc": "https://s.isanook.com/an/0/topoftheyear/static/image/2023/cate/cat-16.png",
+            "title":"นักร้องลูกทุ่งยอดนิยม",
+            "voteBtn": "VoteCover3"
+          }
+          
+        ]
+      }
+    }
+  
