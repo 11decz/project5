@@ -4,10 +4,7 @@ import {VoteBtn1,VoteBtn2,VoteBtn3,VoteBtn4,VoteBtn5,VoteBtn6} from "../assets/c
 import GoTop from "../assets/components/GoTop-Btn";
 import GoBack from "../assets/components/Back-Btn";
 import PageData from "../PageData.json";
-import PageIndex from "../PageIndex.json";
 function GroupIndex({ data }) {
-  // console.log(data);
- 
   return (
     <Bestdrama>
     <GoBack />
@@ -60,29 +57,15 @@ function GroupIndex({ data }) {
         </div>
       ))}
     </div>
-    
-    {/* <main>
-      <p>{data.stargazers_count}</p>
-    </main> */}
     <GoTop />
   </Bestdrama>
   );
 }
 export async function getServerSideProps({ req, res,query }) {
   const resData = await PageData;
-  // const data = await res.json()
   console.log(query.cid);
   return { props: { data:resData[query.cid]} }
 }
- 
-// export default function Page({ data }) {
-//   return (
-//     <main>
-//       <p>{data.stargazers_count}</p>
-//     </main>
-//   )
-// }
-
 
 const Bestdrama = styled.div`
   margin: auto;

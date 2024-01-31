@@ -6,7 +6,6 @@ import GoTop from "./assets/components/GoTop-Btn";
 import { VoteCover1,VoteCover2,VoteCover3 } from "./assets/components/VoteBtn-Index";
 import PageIndex from "./PageIndex.json";
 function Home({data}) {
- 
   const {vote,navigation, section2}= data;
    const VoteComponent = (voteBtn) => {
     switch (voteBtn) {
@@ -89,7 +88,6 @@ function Home({data}) {
           </div>
         </div>
       ))}
-   
       </Vote>
       <GoTop/>
     </TopPage>
@@ -98,8 +96,6 @@ function Home({data}) {
 
 export async function getServerSideProps() {
   const res = await PageIndex;
-  // const data = await res.json()
-  console.log(res);
   return { props: { data:res } }
 }
 const TopPage = styled.div`
@@ -179,11 +175,6 @@ const Navigation = styled.div`
     }
     .active {
       color: #eb2114;
-
-      /* background-image: url(https://s.isanook.com/an/0/topoftheyear/static/image/2023/icon/arrow-rr.svg);
-      background-repeat: no-repeat;
-      background-position: 3px center;
-      background-size: auto 15px; */
     }
   }
   @media (max-width: 426px) {
@@ -334,175 +325,7 @@ const Vote = styled.div`
     width: 100%;
     overflow: hidden;
   }
-  /* .btn {
-    position: relative;
-    .vote-btn {
-      position: absolute;
-      bottom: 3px;
-      width: 100%;
-      overflow: hidden;
-      color: white;
-      border: none;
-      background: #c0c0c0;
-      padding: 10px 10px;
-      width: 100%;
-      font-size: 30px;
-    }
-    .vote-btn-2 {
-      position: absolute;
-      bottom: 6px;
-      width: 100%;
-      overflow: hidden;
-      color: white;
-      border: none;
-      line-height: 30px;
-      background: #c0c0c0;
-      padding: 10px 10px;
-      width: 100%;
-      border-radius: 0 0 75px 75px;
-      font-size: 30px;
-      box-sizing: border-box;
-    }
-    .vote-btn-3 {
-      position: absolute;
-      bottom: 3px;
-      width: 100%;
-      overflow: hidden;
-      color: white;
-      border: none;
-      background: #c0c0c0;
-      padding: 10px 10px;
-      width: 100%;
-      border-radius: 0 0 75px 0;
-      font-size: 30px;
-    }
-    .vote-btn::after,
-    .vote-btn-2::after,
-    .vote-btn-3::after {
-      content: " > ";
-      color: white;
-      transform: translateY(-50%);
-    }
-  } */
 
-  .imaginecouples {
-    .text {
-      color: white;
-      bottom: 76px;
-      left: 20px;
-      padding: 0 3px;
-    }
-  }
-  .topactor {
-    .text {
-      top: 7px;
-      left: 60px;
-      padding: 0 3px;
-      color: black;
-    }
-  }
-  .malerisingstar {
-    .text {
-      color: white;
-
-      top: 10px;
-      left: 20px;
-    }
-  }
-  .topactress {
-    .text {
-      color: white;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .femalerisingstar {
-    .text {
-      color: white;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .bestseries {
-    .text {
-      color: white;
-      top: 20px;
-      left: 60px;
-      padding: 0 3px;
-    }
-  }
-  .bestdrama {
-    .text {
-      color: black;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .chineseseries {
-    .text {
-      color: white;
-      top: 10px;
-      left: 20px;
-    }
-  }
-  .bestmovies {
-    .text {
-      color: white;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .hitsong {
-    .text {
-      color: white;
-      top: 10px;
-      left: 60px;
-      padding: 0 3px;
-    }
-  }
-  .bestsong {
-    .text {
-      color: white;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .topartist {
-    .text {
-      color: black;
-      top: 10px;
-      left: 20px;
-    }
-  }
-  .tpopartist {
-    .text {
-      color: black;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .empoweringwoman {
-    .text {
-      color: white;
-      top: 10px;
-      left: 60px;
-      padding: 0 3px;
-    }
-  }
-  .popularvote {
-    .text {
-      color: white;
-      bottom: 75px;
-      padding: 0 30px;
-    }
-  }
-  .thaifolksong {
-    .text {
-      color: white;
-      top: 10px;
-      left: 20px;
-    }
-  }
 `;
 
 export default Home;
